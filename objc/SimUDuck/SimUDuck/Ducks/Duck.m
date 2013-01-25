@@ -32,4 +32,12 @@
     printf("All ducks float, even decoys!\n");
 }
 
+-(void) setFlyBehavior:(NSObject<FlyBehavior> *)aFlyBehavior {
+    flyBehavior = aFlyBehavior;
+}
+
+-(void) setQuackBehavior:(NSObject<QuackBehavior> *)aQuackBehavior {
+    quackBehavior = aQuackBehavior;
+}
+
 @end

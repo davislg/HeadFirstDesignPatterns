@@ -28,4 +28,7 @@
 -(void) performQuack;
 -(void) swim;
 
+-(void) setFlyBehavior:(NSObject<FlyBehavior> *) aFlyBehavior;
+-(void) setQuackBehavior:(NSObject<QuackBehavior> *) aQuackBehavior;
+
 @end

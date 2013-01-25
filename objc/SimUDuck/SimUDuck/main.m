@@ -49,6 +49,20 @@ int main (int argc, const char * argv[])
     [decoy performFly];
     [decoy performQuack];
     
+    
+    printf("\nMallard broke it's wing and can no longer fly.\n");
+    // Mallard Duck
+    [mallard setFlyBehavior:[[FlyNoWay alloc] init]];
+    [mallard performFly];
+    
+    printf("\nWeeks pass and Mallard is healed and can fly better than before.\n");
+    [mallard setFlyBehavior:[[FlyRocketPowered alloc] init]];
+    [mallard performFly];
+    
+    printf("\nMallard flies so fast, his quack has turned into a squeak.\n");
+    [mallard setQuackBehavior:[[Squeak alloc] init]];
+    [mallard performQuack];
+
     [pool drain];
     return 0;
 }
