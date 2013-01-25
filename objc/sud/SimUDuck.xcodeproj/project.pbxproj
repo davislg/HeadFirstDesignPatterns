@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BC7EDE716B1D2B300702769 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC7EDE616B1D2B300702769 /* Foundation.framework */; };
+		8BC7EDEA16B1D2B300702769 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC7EDE916B1D2B300702769 /* main.m */; };
+		8BC7EDEE16B1D2B300702769 /* SimUDuck.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8BC7EDED16B1D2B300702769 /* SimUDuck.1 */; };
+		8BC7EDF616B1D39000702769 /* Duck.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC7EDF516B1D39000702769 /* Duck.m */; };
+		8BC7EDFD16B1FD3B00702769 /* MallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC7EDFC16B1FD3B00702769 /* MallardDuck.m */; };
+		8BC7EE0116B1FD5E00702769 /* RedheadDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC7EE0016B1FD5E00702769 /* RedheadDuck.m */; };
+		8BC7EE0416B1FD7300702769 /* RubberDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC7EE0316B1FD7300702769 /* RubberDuck.m */; };
+		8BC7EE0A16B201AC00702769 /* FlyWithWings.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC7EE0916B201AC00702769 /* FlyWithWings.m */; };
+		8BC7EE1016B20AC500702769 /* Quack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC7EE0F16B20AC500702769 /* Quack.m */; };
+		8BC7EE1316B20BD000702769 /* MuteQuack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC7EE1216B20BD000702769 /* MuteQuack.m */; };
+		8BC7EE1616B20D1F00702769 /* Squeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC7EE1516B20D1F00702769 /* Squeak.m */; };
+		8BC7EE1916B20DBD00702769 /* FlyNoWay.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC7EE1816B20DBD00702769 /* FlyNoWay.m */; };
+		8BC7EE1C16B20E4100702769 /* DecoyDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC7EE1B16B20E4000702769 /* DecoyDuck.m */; };
+		8BC7EE1F16B20EF400702769 /* FlyRocketPowered.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC7EE1E16B20EF400702769 /* FlyRocketPowered.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8BC7EDE016B1D2B300702769 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8BC7EDEE16B1D2B300702769 /* SimUDuck.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8BC7EDE216B1D2B300702769 /* SimUDuck */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SimUDuck; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC7EDE616B1D2B300702769 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BC7EDE916B1D2B300702769 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BC7EDEC16B1D2B300702769 /* SimUDuck-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimUDuck-Prefix.pch"; sourceTree = "<group>"; };
+		8BC7EDED16B1D2B300702769 /* SimUDuck.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SimUDuck.1; sourceTree = "<group>"; };
+		8BC7EDF416B1D39000702769 /* Duck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Duck.h; sourceTree = "<group>"; };
+		8BC7EDF516B1D39000702769 /* Duck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Duck.m; sourceTree = "<group>"; };
+		8BC7EDFB16B1FD3B00702769 /* MallardDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallardDuck.h; sourceTree = "<group>"; };
+		8BC7EDFC16B1FD3B00702769 /* MallardDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallardDuck.m; sourceTree = "<group>"; };
+		8BC7EDFF16B1FD5E00702769 /* RedheadDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedheadDuck.h; sourceTree = "<group>"; };
+		8BC7EE0016B1FD5E00702769 /* RedheadDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedheadDuck.m; sourceTree = "<group>"; };
+		8BC7EE0216B1FD7300702769 /* RubberDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RubberDuck.h; sourceTree = "<group>"; };
+		8BC7EE0316B1FD7300702769 /* RubberDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RubberDuck.m; sourceTree = "<group>"; };
+		8BC7EE0516B1FE3C00702769 /* FlyBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FlyBehavior.h; path = ../FlyBehavior.h; sourceTree = "<group>"; };
+		8BC7EE0816B201AC00702769 /* FlyWithWings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyWithWings.h; sourceTree = "<group>"; };
+		8BC7EE0916B201AC00702769 /* FlyWithWings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyWithWings.m; sourceTree = "<group>"; };
+		8BC7EE0D16B2093E00702769 /* QuackBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuackBehavior.h; sourceTree = "<group>"; };
+		8BC7EE0E16B20AC500702769 /* Quack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quack.h; sourceTree = "<group>"; };
+		8BC7EE0F16B20AC500702769 /* Quack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quack.m; sourceTree = "<group>"; };
+		8BC7EE1116B20BD000702769 /* MuteQuack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuteQuack.h; sourceTree = "<group>"; };
+		8BC7EE1216B20BD000702769 /* MuteQuack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuteQuack.m; sourceTree = "<group>"; };
+		8BC7EE1416B20D1F00702769 /* Squeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Squeak.h; sourceTree = "<group>"; };
+		8BC7EE1516B20D1F00702769 /* Squeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Squeak.m; sourceTree = "<group>"; };
+		8BC7EE1716B20DBD00702769 /* FlyNoWay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyNoWay.h; sourceTree = "<group>"; };
+		8BC7EE1816B20DBD00702769 /* FlyNoWay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyNoWay.m; sourceTree = "<group>"; };
+		8BC7EE1A16B20E4000702769 /* DecoyDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecoyDuck.h; sourceTree = "<group>"; };
+		8BC7EE1B16B20E4000702769 /* DecoyDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecoyDuck.m; sourceTree = "<group>"; };
+		8BC7EE1D16B20EF400702769 /* FlyRocketPowered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyRocketPowered.h; sourceTree = "<group>"; };
+		8BC7EE1E16B20EF400702769 /* FlyRocketPowered.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyRocketPowered.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BC7EDDF16B1D2B300702769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC7EDE716B1D2B300702769 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BC7EDD716B1D2B300702769 = {
+			isa = PBXGroup;
+			children = (
+				8BC7EDE816B1D2B300702769 /* SimUDuck */,
+				8BC7EDE516B1D2B300702769 /* Frameworks */,
+				8BC7EDE316B1D2B300702769 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BC7EDE316B1D2B300702769 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BC7EDE216B1D2B300702769 /* SimUDuck */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BC7EDE516B1D2B300702769 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BC7EDE616B1D2B300702769 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BC7EDE816B1D2B300702769 /* SimUDuck */ = {
+			isa = PBXGroup;
+			children = (
+				8BC7EE0716B1FF1D00702769 /* Behaviors */,
+				8BC7EE0616B1FF1100702769 /* Ducks */,
+				8BC7EDE916B1D2B300702769 /* main.m */,
+				8BC7EDED16B1D2B300702769 /* SimUDuck.1 */,
+				8BC7EDEB16B1D2B300702769 /* Supporting Files */,
+			);
+			path = SimUDuck;
+			sourceTree = "<group>";
+		};
+		8BC7EDEB16B1D2B300702769 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BC7EDEC16B1D2B300702769 /* SimUDuck-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BC7EE0616B1FF1100702769 /* Ducks */ = {
+			isa = PBXGroup;
+			children = (
+				8BC7EDF416B1D39000702769 /* Duck.h */,
+				8BC7EDF516B1D39000702769 /* Duck.m */,
+				8BC7EDFB16B1FD3B00702769 /* MallardDuck.h */,
+				8BC7EDFC16B1FD3B00702769 /* MallardDuck.m */,
+				8BC7EDFF16B1FD5E00702769 /* RedheadDuck.h */,
+				8BC7EE0016B1FD5E00702769 /* RedheadDuck.m */,
+				8BC7EE0216B1FD7300702769 /* RubberDuck.h */,
+				8BC7EE0316B1FD7300702769 /* RubberDuck.m */,
+				8BC7EE1A16B20E4000702769 /* DecoyDuck.h */,
+				8BC7EE1B16B20E4000702769 /* DecoyDuck.m */,
+			);
+			name = Ducks;
+			sourceTree = "<group>";
+		};
+		8BC7EE0716B1FF1D00702769 /* Behaviors */ = {
+			isa = PBXGroup;
+			children = (
+				8BC7EE0B16B2028900702769 /* Fly */,
+				8BC7EE0C16B2029300702769 /* Quack */,
+			);
+			name = Behaviors;
+			sourceTree = "<group>";
+		};
+		8BC7EE0B16B2028900702769 /* Fly */ = {
+			isa = PBXGroup;
+			children = (
+				8BC7EE0516B1FE3C00702769 /* FlyBehavior.h */,
+				8BC7EE0816B201AC00702769 /* FlyWithWings.h */,
+				8BC7EE0916B201AC00702769 /* FlyWithWings.m */,
+				8BC7EE1716B20DBD00702769 /* FlyNoWay.h */,
+				8BC7EE1816B20DBD00702769 /* FlyNoWay.m */,
+				8BC7EE1D16B20EF400702769 /* FlyRocketPowered.h */,
+				8BC7EE1E16B20EF400702769 /* FlyRocketPowered.m */,
+			);
+			name = Fly;
+			sourceTree = "<group>";
+		};
+		8BC7EE0C16B2029300702769 /* Quack */ = {
+			isa = PBXGroup;
+			children = (
+				8BC7EE0D16B2093E00702769 /* QuackBehavior.h */,
+				8BC7EE0E16B20AC500702769 /* Quack.h */,
+				8BC7EE0F16B20AC500702769 /* Quack.m */,
+				8BC7EE1116B20BD000702769 /* MuteQuack.h */,
+				8BC7EE1216B20BD000702769 /* MuteQuack.m */,
+				8BC7EE1416B20D1F00702769 /* Squeak.h */,
+				8BC7EE1516B20D1F00702769 /* Squeak.m */,
+			);
+			name = Quack;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BC7EDE116B1D2B300702769 /* SimUDuck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC7EDF116B1D2B300702769 /* Build configuration list for PBXNativeTarget "SimUDuck" */;
+			buildPhases = (
+				8BC7EDDE16B1D2B300702769 /* Sources */,
+				8BC7EDDF16B1D2B300702769 /* Frameworks */,
+				8BC7EDE016B1D2B300702769 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimUDuck;
+			productName = SimUDuck;
+			productReference = 8BC7EDE216B1D2B300702769 /* SimUDuck */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BC7EDD916B1D2B300702769 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Liquid Thoughts";
+			};
+			buildConfigurationList = 8BC7EDDC16B1D2B300702769 /* Build configuration list for PBXProject "SimUDuck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8BC7EDD716B1D2B300702769;
+			productRefGroup = 8BC7EDE316B1D2B300702769 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BC7EDE116B1D2B300702769 /* SimUDuck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BC7EDDE16B1D2B300702769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC7EDEA16B1D2B300702769 /* main.m in Sources */,
+				8BC7EDF616B1D39000702769 /* Duck.m in Sources */,
+				8BC7EDFD16B1FD3B00702769 /* MallardDuck.m in Sources */,
+				8BC7EE0116B1FD5E00702769 /* RedheadDuck.m in Sources */,
+				8BC7EE0416B1FD7300702769 /* RubberDuck.m in Sources */,
+				8BC7EE0A16B201AC00702769 /* FlyWithWings.m in Sources */,
+				8BC7EE1016B20AC500702769 /* Quack.m in Sources */,
+				8BC7EE1316B20BD000702769 /* MuteQuack.m in Sources */,
+				8BC7EE1616B20D1F00702769 /* Squeak.m in Sources */,
+				8BC7EE1916B20DBD00702769 /* FlyNoWay.m in Sources */,
+				8BC7EE1C16B20E4100702769 /* DecoyDuck.m in Sources */,
+				8BC7EE1F16B20EF400702769 /* FlyRocketPowered.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8BC7EDEF16B1D2B300702769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8BC7EDF016B1D2B300702769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8BC7EDF216B1D2B300702769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimUDuck/SimUDuck-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8BC7EDF316B1D2B300702769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimUDuck/SimUDuck-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BC7EDDC16B1D2B300702769 /* Build configuration list for PBXProject "SimUDuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC7EDEF16B1D2B300702769 /* Debug */,
+				8BC7EDF016B1D2B300702769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BC7EDF116B1D2B300702769 /* Build configuration list for PBXNativeTarget "SimUDuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC7EDF216B1D2B300702769 /* Debug */,
+				8BC7EDF316B1D2B300702769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BC7EDD916B1D2B300702769 /* Project object */;
+}
