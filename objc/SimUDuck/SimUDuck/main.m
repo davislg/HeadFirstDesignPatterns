@@ -16,8 +16,7 @@
 #import "FlyConcrete.h"
 #import "QuackConcrete.h"
 
-int main (int argc, const char * argv[])
-{
+int main (int argc, const char * argv[]) {
 
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
     
