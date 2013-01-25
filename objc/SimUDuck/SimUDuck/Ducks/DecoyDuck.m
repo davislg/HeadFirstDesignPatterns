@@ -10,12 +10,6 @@
 
 @implementation DecoyDuck
 
--(id) init {
-    flyBehavior = [[FlyNoWay alloc] init];
-    quackBehavior = [[MuteQuack alloc] init];
-    return self;
-}
-
 -(void) display {
     printf("I'm a Decoy!\n");
 }

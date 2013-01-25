@@ -10,12 +10,6 @@
 
 @implementation RubberDuck
 
--(id) init {
-    flyBehavior = [[FlyNoWay alloc] init];
-    quackBehavior = [[Squeak alloc] init];
-    return self;
-}
-
 -(void) display {
     printf("I'm a Rubber Duckie!\n");
 }

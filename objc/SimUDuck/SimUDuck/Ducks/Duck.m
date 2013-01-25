@@ -16,6 +16,13 @@
     return nil;
 }
 
+
+-(id) init:(NSObject<FlyBehavior> *) aFlyBehavior :(NSObject<QuackBehavior> *) aQuackBehavior {
+    flyBehavior = aFlyBehavior;
+    quackBehavior = aQuackBehavior;
+    return self;
+}
+
 -(void) display {
     [self doesNotRecognizeSelector:_cmd];
 }

@@ -7,11 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Ducks/Duck.h"
+#import "Duck.h"
 #import "DecoyDuck.h"
 #import "MallardDuck.h"
 #import "RedheadDuck.h"
 #import "RubberDuck.h"
+
+#import "FlyConcrete.h"
+#import "QuackConcrete.h"
 
 int main (int argc, const char * argv[])
 {
@@ -20,7 +23,7 @@ int main (int argc, const char * argv[])
     
     // Ducks
     // Mallard Duck
-    Duck *mallard = [[MallardDuck alloc] init];
+    Duck *mallard = [[MallardDuck alloc] init:[[FlyWithWings alloc] init] :[[Quack alloc] init]];
     [mallard display];
     [mallard performFly];
     [mallard performQuack];
@@ -28,7 +31,7 @@ int main (int argc, const char * argv[])
     printf("\n");
 
     // Redhead Duck
-    Duck *redhead = [[RedheadDuck alloc] init];
+    Duck *redhead = [[RedheadDuck alloc] init:[[FlyRocketPowered alloc] init] :[[Quack alloc] init]];
     [redhead display];
     [redhead performFly];
     [redhead performQuack];
@@ -36,7 +39,7 @@ int main (int argc, const char * argv[])
     printf("\n");
     
     // Rubber Duck
-    Duck *rubber = [[RubberDuck alloc] init];
+    Duck *rubber = [[RubberDuck alloc] init:[[FlyNoWay alloc] init] :[[Squeak alloc] init]];
     [rubber display];
     [rubber performFly];
     [rubber performQuack];
@@ -44,7 +47,7 @@ int main (int argc, const char * argv[])
     printf("\n");
     
     // Decoy Duck
-    Duck *decoy = [[DecoyDuck alloc] init];
+    Duck *decoy = [[DecoyDuck alloc] init:[[FlyNoWay alloc] init] :[[MuteQuack alloc]  init]];
     [decoy display];
     [decoy performFly];
     [decoy performQuack];

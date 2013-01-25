@@ -10,15 +10,6 @@
 
 @implementation MallardDuck
 
--(id) init {
-    //self = [super init];
-    //if (self) {
-        flyBehavior = [[FlyWithWings alloc] init];
-        quackBehavior = [[Quack alloc] init];
-    //}
-    return self;
-}
-
 -(void) display {
     printf("I'm a real Mallard duck!\n");
 }

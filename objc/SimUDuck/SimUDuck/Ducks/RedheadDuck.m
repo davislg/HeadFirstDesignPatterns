@@ -10,12 +10,6 @@
 
 @implementation RedheadDuck
 
--(id) init {
-    flyBehavior = [[FlyRocketPowered alloc] init];
-    quackBehavior = [[Quack alloc] init];
-    return self;
-}
-
 -(void) display {
     printf("I'm a Redhead duck!\n");
 }

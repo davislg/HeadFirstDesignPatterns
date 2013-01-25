@@ -37,6 +37,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8B30332816B322F300037B08 /* FlyConcrete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyConcrete.h; sourceTree = "<group>"; };
+		8B30332916B3236500037B08 /* QuackConcrete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuackConcrete.h; sourceTree = "<group>"; };
 		8B52E5CE16B2177400D758E7 /* DecoyDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecoyDuck.h; sourceTree = "<group>"; };
 		8B52E5CF16B2177400D758E7 /* DecoyDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecoyDuck.m; sourceTree = "<group>"; };
 		8B52E5D016B2177400D758E7 /* Duck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Duck.h; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		8B52E5DE16B2178B00D758E7 /* Fly */ = {
 			isa = PBXGroup;
 			children = (
+				8B30332816B322F300037B08 /* FlyConcrete.h */,
 				8B52E5DF16B2178B00D758E7 /* FlyBehavior.h */,
 				8B52E5E016B2178B00D758E7 /* FlyNoWay.h */,
 				8B52E5E116B2178B00D758E7 /* FlyNoWay.m */,
@@ -123,6 +126,7 @@
 		8B52E5E616B2178B00D758E7 /* Quack */ = {
 			isa = PBXGroup;
 			children = (
+				8B30332916B3236500037B08 /* QuackConcrete.h */,
 				8B52E5E716B2178B00D758E7 /* MuteQuack.h */,
 				8B52E5E816B2178B00D758E7 /* MuteQuack.m */,
 				8B52E5E916B2178B00D758E7 /* Quack.h */,

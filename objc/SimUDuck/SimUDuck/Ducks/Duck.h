@@ -9,19 +9,15 @@
 #import <Foundation/Foundation.h>
 
 #import "FlyBehavior.h"
-#import "FlyWithWings.h"
-#import "FlyNoWay.h"
-#import "FlyRocketPowered.h"
 
 #import "QuackBehavior.h"
-#import "Quack.h"
-#import "MuteQuack.h"
-#import "Squeak.h"
 
 @interface Duck : NSObject {
     NSObject<FlyBehavior> *flyBehavior;
     NSObject<QuackBehavior> *quackBehavior;
 }
+
+-(id) init:(NSObject<FlyBehavior> *) aFlyBehavior :(NSObject<QuackBehavior> *) aQuackBehavior;
 
 -(void) display;
 -(void) performFly;
