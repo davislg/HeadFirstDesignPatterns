@@ -10,4 +10,6 @@
 
 @protocol DisplayElement <NSObject>
 
+-(void) display;
+
 @end

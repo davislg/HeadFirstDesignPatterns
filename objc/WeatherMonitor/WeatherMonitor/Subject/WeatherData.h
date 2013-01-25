@@ -7,7 +7,27 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Subject.h"
 
-@interface WeatherData : NSObject
+@interface WeatherData : NSObject<Subject>
+
+@property (nonatomic, retain) NSMutableArray *observers;
+@property (nonatomic) float humidity;
+@property (nonatomic) float pressure;
+@property (nonatomic) float temperature;
+
+
+-(void) registerObserver:(NSObject<Observer> *)observer;
+-(void) removeObserver:(NSObject<Observer> *)observer;
+-(void) notifyObservers;
+
+
+-(float) getHumidity;
+-(float) getPressure;
+-(float) getTemperature;
+
+-(void) measurementsChanged;
+
+-(void) setMeasurements:(float)aTemperature :(float)aHumitity :(float)aPressure;
 
 @end

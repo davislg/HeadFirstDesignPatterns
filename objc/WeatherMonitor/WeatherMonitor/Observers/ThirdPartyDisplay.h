@@ -1,5 +1,5 @@
 //
-//  StatisticsDisplay.h
+//  ThirdPartyDisplay.h
 //  WeatherMonitor
 //
 //  Created by Davis on 1/24/13.
@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Subject.h"
 #import "Observer.h"
 #import "DisplayElement.h"
+#import "Subject.h"
 
-@interface StatisticsDisplay : NSObject<Observer, DisplayElement>{
+@interface ThirdPartyDisplay : NSObject<Observer, DisplayElement>{
     NSObject<Subject> *weatherData;
     float humidity;
     float temperature;

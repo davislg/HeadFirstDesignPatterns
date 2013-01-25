@@ -1,14 +1,14 @@
 //
-//  StatisticsDisplay.m
+//  ForecastDisplay.m
 //  WeatherMonitor
 //
 //  Created by Davis on 1/24/13.
 //  Copyright (c) 2013 Liquid Thoughts. All rights reserved.
 //
 
-#import "StatisticsDisplay.h"
+#import "ForecastDisplay.h"
 
-@implementation StatisticsDisplay
+@implementation ForecastDisplay
 
 -(id) init:(NSObject<Subject> *)data {
     weatherData = data;
@@ -21,8 +21,7 @@
 }
 
 -(void) display {
-    printf("Statistics: %f F degrees and %f %% humidity\n", temperature, humidity);
-
+    printf("Forecast: %f F degrees and %f %% humidity\n", temperature, humidity);
 }
 
 @end

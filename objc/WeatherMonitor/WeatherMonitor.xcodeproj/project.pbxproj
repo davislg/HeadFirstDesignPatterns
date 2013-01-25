@@ -10,6 +10,11 @@
 		8B52E63E16B221EC00D758E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B52E63D16B221EC00D758E7 /* Foundation.framework */; };
 		8B52E64116B221EC00D758E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B52E64016B221EC00D758E7 /* main.m */; };
 		8B52E64516B221EC00D758E7 /* WeatherMonitor.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B52E64416B221EC00D758E7 /* WeatherMonitor.1 */; };
+		8B52E65516B22FF800D758E7 /* WeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B52E65416B22FF800D758E7 /* WeatherData.m */; };
+		8B52E65916B2317E00D758E7 /* CurrentConditionsDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B52E65816B2317E00D758E7 /* CurrentConditionsDisplay.m */; };
+		8B52E65C16B2327400D758E7 /* StatisticsDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B52E65B16B2327400D758E7 /* StatisticsDisplay.m */; };
+		8B52E65F16B234ED00D758E7 /* ForecastDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B52E65E16B234EC00D758E7 /* ForecastDisplay.m */; };
+		8B52E66216B2354900D758E7 /* ThirdPartyDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B52E66116B2354900D758E7 /* ThirdPartyDisplay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +36,19 @@
 		8B52E64016B221EC00D758E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B52E64316B221EC00D758E7 /* WeatherMonitor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WeatherMonitor-Prefix.pch"; sourceTree = "<group>"; };
 		8B52E64416B221EC00D758E7 /* WeatherMonitor.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = WeatherMonitor.1; sourceTree = "<group>"; };
+		8B52E64B16B22F4200D758E7 /* Subject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Subject.h; path = Subject/Subject.h; sourceTree = "<group>"; };
+		8B52E65116B22FB200D758E7 /* Observer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Observer.h; path = Observers/Observer.h; sourceTree = "<group>"; };
+		8B52E65316B22FF800D758E7 /* WeatherData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeatherData.h; path = Subject/WeatherData.h; sourceTree = "<group>"; };
+		8B52E65416B22FF800D758E7 /* WeatherData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeatherData.m; path = Subject/WeatherData.m; sourceTree = "<group>"; };
+		8B52E65616B2314400D758E7 /* DisplayElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DisplayElement.h; path = Observers/DisplayElement.h; sourceTree = "<group>"; };
+		8B52E65716B2317E00D758E7 /* CurrentConditionsDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CurrentConditionsDisplay.h; path = Observers/CurrentConditionsDisplay.h; sourceTree = "<group>"; };
+		8B52E65816B2317E00D758E7 /* CurrentConditionsDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CurrentConditionsDisplay.m; path = Observers/CurrentConditionsDisplay.m; sourceTree = "<group>"; };
+		8B52E65A16B2327400D758E7 /* StatisticsDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatisticsDisplay.h; path = Observers/StatisticsDisplay.h; sourceTree = "<group>"; };
+		8B52E65B16B2327400D758E7 /* StatisticsDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatisticsDisplay.m; path = Observers/StatisticsDisplay.m; sourceTree = "<group>"; };
+		8B52E65D16B234EC00D758E7 /* ForecastDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForecastDisplay.h; path = Observers/ForecastDisplay.h; sourceTree = "<group>"; };
+		8B52E65E16B234EC00D758E7 /* ForecastDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForecastDisplay.m; path = Observers/ForecastDisplay.m; sourceTree = "<group>"; };
+		8B52E66016B2354900D758E7 /* ThirdPartyDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdPartyDisplay.h; path = Observers/ThirdPartyDisplay.h; sourceTree = "<group>"; };
+		8B52E66116B2354900D758E7 /* ThirdPartyDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdPartyDisplay.m; path = Observers/ThirdPartyDisplay.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +94,8 @@
 				8B52E64016B221EC00D758E7 /* main.m */,
 				8B52E64416B221EC00D758E7 /* WeatherMonitor.1 */,
 				8B52E64216B221EC00D758E7 /* Supporting Files */,
+				8B52E64C16B22F4900D758E7 /* Subject */,
+				8B52E65216B22FB700D758E7 /* Observers */,
 			);
 			path = WeatherMonitor;
 			sourceTree = "<group>";
@@ -86,6 +106,33 @@
 				8B52E64316B221EC00D758E7 /* WeatherMonitor-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B52E64C16B22F4900D758E7 /* Subject */ = {
+			isa = PBXGroup;
+			children = (
+				8B52E64B16B22F4200D758E7 /* Subject.h */,
+				8B52E65316B22FF800D758E7 /* WeatherData.h */,
+				8B52E65416B22FF800D758E7 /* WeatherData.m */,
+			);
+			name = Subject;
+			sourceTree = "<group>";
+		};
+		8B52E65216B22FB700D758E7 /* Observers */ = {
+			isa = PBXGroup;
+			children = (
+				8B52E65116B22FB200D758E7 /* Observer.h */,
+				8B52E65616B2314400D758E7 /* DisplayElement.h */,
+				8B52E65716B2317E00D758E7 /* CurrentConditionsDisplay.h */,
+				8B52E65816B2317E00D758E7 /* CurrentConditionsDisplay.m */,
+				8B52E65A16B2327400D758E7 /* StatisticsDisplay.h */,
+				8B52E65B16B2327400D758E7 /* StatisticsDisplay.m */,
+				8B52E65D16B234EC00D758E7 /* ForecastDisplay.h */,
+				8B52E65E16B234EC00D758E7 /* ForecastDisplay.m */,
+				8B52E66016B2354900D758E7 /* ThirdPartyDisplay.h */,
+				8B52E66116B2354900D758E7 /* ThirdPartyDisplay.m */,
+			);
+			name = Observers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +187,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B52E64116B221EC00D758E7 /* main.m in Sources */,
+				8B52E65516B22FF800D758E7 /* WeatherData.m in Sources */,
+				8B52E65916B2317E00D758E7 /* CurrentConditionsDisplay.m in Sources */,
+				8B52E65C16B2327400D758E7 /* StatisticsDisplay.m in Sources */,
+				8B52E65F16B234ED00D758E7 /* ForecastDisplay.m in Sources */,
+				8B52E66216B2354900D758E7 /* ThirdPartyDisplay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

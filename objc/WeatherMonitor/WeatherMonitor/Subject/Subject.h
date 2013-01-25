@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Observer.h"
 
 @protocol Subject <NSObject>
+
+-(void) registerObserver:(NSObject<Observer> *)observer;
+-(void) removeObserver:(NSObject<Observer> *)observer;
+-(void) notifyObservers;
 
 @end

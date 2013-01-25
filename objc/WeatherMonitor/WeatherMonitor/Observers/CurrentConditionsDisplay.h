@@ -1,5 +1,5 @@
 //
-//  StatisticsDisplay.h
+//  CurrentConditions.h
 //  WeatherMonitor
 //
 //  Created by Davis on 1/24/13.
@@ -10,12 +10,12 @@
 #import "Subject.h"
 #import "Observer.h"
 #import "DisplayElement.h"
+#import "WeatherData.h"
 
-@interface StatisticsDisplay : NSObject<Observer, DisplayElement>{
+@interface CurrentConditionsDisplay : NSObject<Observer, DisplayElement> {
     NSObject<Subject> *weatherData;
     float humidity;
     float temperature;
-    float pressure;
 }
 
 -(id) init:(NSObject<Subject> *)data;
