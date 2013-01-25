@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Duck.h"
+#import "Ducks/Duck.h"
 #import "DecoyDuck.h"
 #import "MallardDuck.h"
 #import "RedheadDuck.h"
