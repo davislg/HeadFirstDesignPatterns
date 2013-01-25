@@ -23,12 +23,13 @@ int main (int argc, const char * argv[]) {
     StatisticsDisplay *statistics = [[StatisticsDisplay alloc] init:weatherData];
     ForecastDisplay *forecast = [[ForecastDisplay alloc] init:weatherData];
 
+    [currentConditions display];
+    [statistics display];
+    [forecast display];
+    
+    printf("\n");
+    
     [weatherData setMeasurements:70 :60 :30];
-    
-    //[currentConditions display];
-    //[statistics display];
-    //[forecast display];
-    
     [weatherData setMeasurements:80 :65 :30.4f];
     [weatherData setMeasurements:82 :70 :29.2f];
     
