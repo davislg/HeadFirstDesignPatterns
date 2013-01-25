@@ -7,83 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B52E60416B220B200D758E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B52E60316B220B200D758E7 /* Foundation.framework */; };
-		8B52E60716B220B200D758E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B52E60616B220B200D758E7 /* main.m */; };
-		8B52E60B16B220B200D758E7 /* WeatherMonitoring.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B52E60A16B220B200D758E7 /* WeatherMonitoring.1 */; };
+		8B52E63E16B221EC00D758E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B52E63D16B221EC00D758E7 /* Foundation.framework */; };
+		8B52E64116B221EC00D758E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B52E64016B221EC00D758E7 /* main.m */; };
+		8B52E64516B221EC00D758E7 /* WeatherMonitor.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B52E64416B221EC00D758E7 /* WeatherMonitor.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		8B52E5FD16B220B200D758E7 /* CopyFiles */ = {
+		8B52E63716B221EC00D758E7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				8B52E60B16B220B200D758E7 /* WeatherMonitoring.1 in CopyFiles */,
+				8B52E64516B221EC00D758E7 /* WeatherMonitor.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8B52E5FF16B220B200D758E7 /* WeatherMonitoring */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WeatherMonitoring; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B52E60316B220B200D758E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		8B52E60616B220B200D758E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8B52E60916B220B200D758E7 /* WeatherMonitoring-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WeatherMonitoring-Prefix.pch"; sourceTree = "<group>"; };
-		8B52E60A16B220B200D758E7 /* WeatherMonitoring.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = WeatherMonitoring.1; sourceTree = "<group>"; };
+		8B52E63916B221EC00D758E7 /* WeatherMonitor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WeatherMonitor; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B52E63D16B221EC00D758E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8B52E64016B221EC00D758E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B52E64316B221EC00D758E7 /* WeatherMonitor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WeatherMonitor-Prefix.pch"; sourceTree = "<group>"; };
+		8B52E64416B221EC00D758E7 /* WeatherMonitor.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = WeatherMonitor.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8B52E5FC16B220B200D758E7 /* Frameworks */ = {
+		8B52E63616B221EC00D758E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B52E60416B220B200D758E7 /* Foundation.framework in Frameworks */,
+				8B52E63E16B221EC00D758E7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8B52E5F416B220B200D758E7 = {
+		8B52E62E16B221EC00D758E7 = {
 			isa = PBXGroup;
 			children = (
-				8B52E60516B220B200D758E7 /* WeatherMonitoring */,
-				8B52E60216B220B200D758E7 /* Frameworks */,
-				8B52E60016B220B200D758E7 /* Products */,
+				8B52E63F16B221EC00D758E7 /* WeatherMonitor */,
+				8B52E63C16B221EC00D758E7 /* Frameworks */,
+				8B52E63A16B221EC00D758E7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8B52E60016B220B200D758E7 /* Products */ = {
+		8B52E63A16B221EC00D758E7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8B52E5FF16B220B200D758E7 /* WeatherMonitoring */,
+				8B52E63916B221EC00D758E7 /* WeatherMonitor */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8B52E60216B220B200D758E7 /* Frameworks */ = {
+		8B52E63C16B221EC00D758E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8B52E60316B220B200D758E7 /* Foundation.framework */,
+				8B52E63D16B221EC00D758E7 /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8B52E60516B220B200D758E7 /* WeatherMonitoring */ = {
+		8B52E63F16B221EC00D758E7 /* WeatherMonitor */ = {
 			isa = PBXGroup;
 			children = (
-				8B52E60616B220B200D758E7 /* main.m */,
-				8B52E60A16B220B200D758E7 /* WeatherMonitoring.1 */,
-				8B52E60816B220B200D758E7 /* Supporting Files */,
+				8B52E64016B221EC00D758E7 /* main.m */,
+				8B52E64416B221EC00D758E7 /* WeatherMonitor.1 */,
+				8B52E64216B221EC00D758E7 /* Supporting Files */,
 			);
-			path = WeatherMonitoring;
+			path = WeatherMonitor;
 			sourceTree = "<group>";
 		};
-		8B52E60816B220B200D758E7 /* Supporting Files */ = {
+		8B52E64216B221EC00D758E7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8B52E60916B220B200D758E7 /* WeatherMonitoring-Prefix.pch */,
+				8B52E64316B221EC00D758E7 /* WeatherMonitor-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -91,62 +91,62 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8B52E5FE16B220B200D758E7 /* WeatherMonitoring */ = {
+		8B52E63816B221EC00D758E7 /* WeatherMonitor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B52E60E16B220B200D758E7 /* Build configuration list for PBXNativeTarget "WeatherMonitoring" */;
+			buildConfigurationList = 8B52E64816B221EC00D758E7 /* Build configuration list for PBXNativeTarget "WeatherMonitor" */;
 			buildPhases = (
-				8B52E5FB16B220B200D758E7 /* Sources */,
-				8B52E5FC16B220B200D758E7 /* Frameworks */,
-				8B52E5FD16B220B200D758E7 /* CopyFiles */,
+				8B52E63516B221EC00D758E7 /* Sources */,
+				8B52E63616B221EC00D758E7 /* Frameworks */,
+				8B52E63716B221EC00D758E7 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WeatherMonitoring;
-			productName = WeatherMonitoring;
-			productReference = 8B52E5FF16B220B200D758E7 /* WeatherMonitoring */;
+			name = WeatherMonitor;
+			productName = WeatherMonitor;
+			productReference = 8B52E63916B221EC00D758E7 /* WeatherMonitor */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8B52E5F616B220B200D758E7 /* Project object */ = {
+		8B52E63016B221EC00D758E7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Liquid Thoughts";
 			};
-			buildConfigurationList = 8B52E5F916B220B200D758E7 /* Build configuration list for PBXProject "WeatherMonitoring" */;
+			buildConfigurationList = 8B52E63316B221EC00D758E7 /* Build configuration list for PBXProject "WeatherMonitor" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 8B52E5F416B220B200D758E7;
-			productRefGroup = 8B52E60016B220B200D758E7 /* Products */;
+			mainGroup = 8B52E62E16B221EC00D758E7;
+			productRefGroup = 8B52E63A16B221EC00D758E7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8B52E5FE16B220B200D758E7 /* WeatherMonitoring */,
+				8B52E63816B221EC00D758E7 /* WeatherMonitor */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8B52E5FB16B220B200D758E7 /* Sources */ = {
+		8B52E63516B221EC00D758E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B52E60716B220B200D758E7 /* main.m in Sources */,
+				8B52E64116B221EC00D758E7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8B52E60C16B220B200D758E7 /* Debug */ = {
+		8B52E64616B221EC00D758E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -175,7 +175,7 @@
 			};
 			name = Debug;
 		};
-		8B52E60D16B220B200D758E7 /* Release */ = {
+		8B52E64716B221EC00D758E7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -197,20 +197,20 @@
 			};
 			name = Release;
 		};
-		8B52E60F16B220B200D758E7 /* Debug */ = {
+		8B52E64916B221EC00D758E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WeatherMonitoring/WeatherMonitoring-Prefix.pch";
+				GCC_PREFIX_HEADER = "WeatherMonitor/WeatherMonitor-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		8B52E61016B220B200D758E7 /* Release */ = {
+		8B52E64A16B221EC00D758E7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WeatherMonitoring/WeatherMonitoring-Prefix.pch";
+				GCC_PREFIX_HEADER = "WeatherMonitor/WeatherMonitor-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -218,24 +218,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8B52E5F916B220B200D758E7 /* Build configuration list for PBXProject "WeatherMonitoring" */ = {
+		8B52E63316B221EC00D758E7 /* Build configuration list for PBXProject "WeatherMonitor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B52E60C16B220B200D758E7 /* Debug */,
-				8B52E60D16B220B200D758E7 /* Release */,
+				8B52E64616B221EC00D758E7 /* Debug */,
+				8B52E64716B221EC00D758E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B52E60E16B220B200D758E7 /* Build configuration list for PBXNativeTarget "WeatherMonitoring" */ = {
+		8B52E64816B221EC00D758E7 /* Build configuration list for PBXNativeTarget "WeatherMonitor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B52E60F16B220B200D758E7 /* Debug */,
-				8B52E61016B220B200D758E7 /* Release */,
+				8B52E64916B221EC00D758E7 /* Debug */,
+				8B52E64A16B221EC00D758E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8B52E5F616B220B200D758E7 /* Project object */;
+	rootObject = 8B52E63016B221EC00D758E7 /* Project object */;
 }
