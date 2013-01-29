@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B30333A16B498FB00037B08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B30333916B498FB00037B08 /* Foundation.framework */; };
+		8B30333D16B498FB00037B08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B30333C16B498FB00037B08 /* main.m */; };
+		8B30334116B498FB00037B08 /* StarbuzzCoffee.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B30334016B498FB00037B08 /* StarbuzzCoffee.1 */; };
+		8B3B923216B7A20600D8C04C /* Beverage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B923116B7A20600D8C04C /* Beverage.m */; };
+		8B3B923C16B7A46100D8C04C /* Expresso.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B923B16B7A46100D8C04C /* Expresso.m */; };
+		8B3B924116B7A52B00D8C04C /* CondimentDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B924016B7A52B00D8C04C /* CondimentDecorator.m */; };
+		8B3B924416B7A55A00D8C04C /* HouseBlend.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B924316B7A55A00D8C04C /* HouseBlend.m */; };
+		8B3B924716B7A59E00D8C04C /* DarkRoast.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B924616B7A59E00D8C04C /* DarkRoast.m */; };
+		8B3B924A16B7A5CD00D8C04C /* Decaf.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B924916B7A5CD00D8C04C /* Decaf.m */; };
+		8B3B924D16B7A80C00D8C04C /* Mocha.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B924C16B7A80C00D8C04C /* Mocha.m */; };
+		8B3B925016B7AB1700D8C04C /* Soy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B924F16B7AB1700D8C04C /* Soy.m */; };
+		8B3B925316B7AD7E00D8C04C /* Whip.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B925216B7AD7E00D8C04C /* Whip.m */; };
+		8B3B925616B7ADD100D8C04C /* SteamedMilk.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B925516B7ADD000D8C04C /* SteamedMilk.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8B30333316B498FB00037B08 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8B30334116B498FB00037B08 /* StarbuzzCoffee.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8B30333516B498FB00037B08 /* StarbuzzCoffee */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StarbuzzCoffee; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B30333916B498FB00037B08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8B30333C16B498FB00037B08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B30333F16B498FB00037B08 /* StarbuzzCoffee-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StarbuzzCoffee-Prefix.pch"; sourceTree = "<group>"; };
+		8B30334016B498FB00037B08 /* StarbuzzCoffee.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = StarbuzzCoffee.1; sourceTree = "<group>"; };
+		8B3B922E16B7A17B00D8C04C /* Beverage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Beverage.h; path = Beverages/Beverage.h; sourceTree = "<group>"; };
+		8B3B923116B7A20600D8C04C /* Beverage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Beverage.m; path = Beverages/Beverage.m; sourceTree = "<group>"; };
+		8B3B923A16B7A46100D8C04C /* Expresso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Expresso.h; path = Beverages/Expresso.h; sourceTree = "<group>"; };
+		8B3B923B16B7A46100D8C04C /* Expresso.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Expresso.m; path = Beverages/Expresso.m; sourceTree = "<group>"; };
+		8B3B923F16B7A52B00D8C04C /* CondimentDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CondimentDecorator.h; sourceTree = "<group>"; };
+		8B3B924016B7A52B00D8C04C /* CondimentDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CondimentDecorator.m; sourceTree = "<group>"; };
+		8B3B924216B7A55A00D8C04C /* HouseBlend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HouseBlend.h; path = Beverages/HouseBlend.h; sourceTree = "<group>"; };
+		8B3B924316B7A55A00D8C04C /* HouseBlend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HouseBlend.m; path = Beverages/HouseBlend.m; sourceTree = "<group>"; };
+		8B3B924516B7A59E00D8C04C /* DarkRoast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DarkRoast.h; path = Beverages/DarkRoast.h; sourceTree = "<group>"; };
+		8B3B924616B7A59E00D8C04C /* DarkRoast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DarkRoast.m; path = Beverages/DarkRoast.m; sourceTree = "<group>"; };
+		8B3B924816B7A5CD00D8C04C /* Decaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Decaf.h; path = Beverages/Decaf.h; sourceTree = "<group>"; };
+		8B3B924916B7A5CD00D8C04C /* Decaf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Decaf.m; path = Beverages/Decaf.m; sourceTree = "<group>"; };
+		8B3B924B16B7A80C00D8C04C /* Mocha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mocha.h; sourceTree = "<group>"; };
+		8B3B924C16B7A80C00D8C04C /* Mocha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mocha.m; sourceTree = "<group>"; };
+		8B3B924E16B7AB1700D8C04C /* Soy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Soy.h; sourceTree = "<group>"; };
+		8B3B924F16B7AB1700D8C04C /* Soy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Soy.m; sourceTree = "<group>"; };
+		8B3B925116B7AD7E00D8C04C /* Whip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Whip.h; sourceTree = "<group>"; };
+		8B3B925216B7AD7E00D8C04C /* Whip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Whip.m; sourceTree = "<group>"; };
+		8B3B925416B7ADD000D8C04C /* SteamedMilk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SteamedMilk.h; sourceTree = "<group>"; };
+		8B3B925516B7ADD000D8C04C /* SteamedMilk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SteamedMilk.m; sourceTree = "<group>"; };
+		8B3B925716B7AE8500D8C04C /* Beverages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Beverages.h; path = Beverages/Beverages.h; sourceTree = "<group>"; };
+		8B3B925816B7AED400D8C04C /* Condiments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Condiments.h; sourceTree = "<group>"; };
+		8B3B925916B7B2F900D8C04C /* BeverageSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BeverageSize.h; path = Beverages/BeverageSize.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B30333216B498FB00037B08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B30333A16B498FB00037B08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B30332A16B498FB00037B08 = {
+			isa = PBXGroup;
+			children = (
+				8B30333B16B498FB00037B08 /* StarbuzzCoffee */,
+				8B30333816B498FB00037B08 /* Frameworks */,
+				8B30333616B498FB00037B08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B30333616B498FB00037B08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B30333516B498FB00037B08 /* StarbuzzCoffee */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B30333816B498FB00037B08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B30333916B498FB00037B08 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B30333B16B498FB00037B08 /* StarbuzzCoffee */ = {
+			isa = PBXGroup;
+			children = (
+				8B30333C16B498FB00037B08 /* main.m */,
+				8B30334016B498FB00037B08 /* StarbuzzCoffee.1 */,
+				8B3B923016B7A18A00D8C04C /* Beverages */,
+				8B3B923E16B7A52B00D8C04C /* Condiments */,
+				8B30333E16B498FB00037B08 /* Supporting Files */,
+			);
+			path = StarbuzzCoffee;
+			sourceTree = "<group>";
+		};
+		8B30333E16B498FB00037B08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B30333F16B498FB00037B08 /* StarbuzzCoffee-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B3B923016B7A18A00D8C04C /* Beverages */ = {
+			isa = PBXGroup;
+			children = (
+				8B3B925716B7AE8500D8C04C /* Beverages.h */,
+				8B3B922E16B7A17B00D8C04C /* Beverage.h */,
+				8B3B923116B7A20600D8C04C /* Beverage.m */,
+				8B3B923A16B7A46100D8C04C /* Expresso.h */,
+				8B3B923B16B7A46100D8C04C /* Expresso.m */,
+				8B3B924216B7A55A00D8C04C /* HouseBlend.h */,
+				8B3B924316B7A55A00D8C04C /* HouseBlend.m */,
+				8B3B924516B7A59E00D8C04C /* DarkRoast.h */,
+				8B3B924616B7A59E00D8C04C /* DarkRoast.m */,
+				8B3B924816B7A5CD00D8C04C /* Decaf.h */,
+				8B3B924916B7A5CD00D8C04C /* Decaf.m */,
+				8B3B925916B7B2F900D8C04C /* BeverageSize.h */,
+			);
+			name = Beverages;
+			sourceTree = "<group>";
+		};
+		8B3B923E16B7A52B00D8C04C /* Condiments */ = {
+			isa = PBXGroup;
+			children = (
+				8B3B925816B7AED400D8C04C /* Condiments.h */,
+				8B3B925416B7ADD000D8C04C /* SteamedMilk.h */,
+				8B3B925516B7ADD000D8C04C /* SteamedMilk.m */,
+				8B3B925116B7AD7E00D8C04C /* Whip.h */,
+				8B3B925216B7AD7E00D8C04C /* Whip.m */,
+				8B3B924E16B7AB1700D8C04C /* Soy.h */,
+				8B3B924F16B7AB1700D8C04C /* Soy.m */,
+				8B3B923F16B7A52B00D8C04C /* CondimentDecorator.h */,
+				8B3B924016B7A52B00D8C04C /* CondimentDecorator.m */,
+				8B3B924B16B7A80C00D8C04C /* Mocha.h */,
+				8B3B924C16B7A80C00D8C04C /* Mocha.m */,
+			);
+			path = Condiments;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B30333416B498FB00037B08 /* StarbuzzCoffee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B30334416B498FB00037B08 /* Build configuration list for PBXNativeTarget "StarbuzzCoffee" */;
+			buildPhases = (
+				8B30333116B498FB00037B08 /* Sources */,
+				8B30333216B498FB00037B08 /* Frameworks */,
+				8B30333316B498FB00037B08 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarbuzzCoffee;
+			productName = StarbuzzCoffee;
+			productReference = 8B30333516B498FB00037B08 /* StarbuzzCoffee */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B30332C16B498FB00037B08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Liquid Thoughts";
+			};
+			buildConfigurationList = 8B30332F16B498FB00037B08 /* Build configuration list for PBXProject "StarbuzzCoffee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8B30332A16B498FB00037B08;
+			productRefGroup = 8B30333616B498FB00037B08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B30333416B498FB00037B08 /* StarbuzzCoffee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B30333116B498FB00037B08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B30333D16B498FB00037B08 /* main.m in Sources */,
+				8B3B923216B7A20600D8C04C /* Beverage.m in Sources */,
+				8B3B923C16B7A46100D8C04C /* Expresso.m in Sources */,
+				8B3B924116B7A52B00D8C04C /* CondimentDecorator.m in Sources */,
+				8B3B924416B7A55A00D8C04C /* HouseBlend.m in Sources */,
+				8B3B924716B7A59E00D8C04C /* DarkRoast.m in Sources */,
+				8B3B924A16B7A5CD00D8C04C /* Decaf.m in Sources */,
+				8B3B924D16B7A80C00D8C04C /* Mocha.m in Sources */,
+				8B3B925016B7AB1700D8C04C /* Soy.m in Sources */,
+				8B3B925316B7AD7E00D8C04C /* Whip.m in Sources */,
+				8B3B925616B7ADD100D8C04C /* SteamedMilk.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8B30334216B498FB00037B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8B30334316B498FB00037B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8B30334516B498FB00037B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarbuzzCoffee/StarbuzzCoffee-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B30334616B498FB00037B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarbuzzCoffee/StarbuzzCoffee-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B30332F16B498FB00037B08 /* Build configuration list for PBXProject "StarbuzzCoffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B30334216B498FB00037B08 /* Debug */,
+				8B30334316B498FB00037B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B30334416B498FB00037B08 /* Build configuration list for PBXNativeTarget "StarbuzzCoffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B30334516B498FB00037B08 /* Debug */,
+				8B30334616B498FB00037B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B30332C16B498FB00037B08 /* Project object */;
+}
