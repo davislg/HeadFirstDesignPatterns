@@ -10,6 +10,13 @@
 		8BAF42DC16BB4B8000E9C016 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAF42DB16BB4B8000E9C016 /* Foundation.framework */; };
 		8BAF42DF16BB4B8000E9C016 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF42DE16BB4B8000E9C016 /* main.m */; };
 		8BAF42E316BB4B8000E9C016 /* PizzaStore.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8BAF42E216BB4B8000E9C016 /* PizzaStore.1 */; };
+		8BAF42F216BC81EB00E9C016 /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF42F116BC81EB00E9C016 /* Pizza.m */; };
+		8BAF42F916BC89C500E9C016 /* PizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF42F616BC89C500E9C016 /* PizzaStore.m */; };
+		8BAF42FA16BC89C500E9C016 /* SimplePizzaFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF42F816BC89C500E9C016 /* SimplePizzaFactory.m */; };
+		8BAF42FE16BC8A7B00E9C016 /* CheesePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF42FD16BC8A7B00E9C016 /* CheesePizza.m */; };
+		8BAF430116BC8E0D00E9C016 /* ClamPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF430016BC8E0C00E9C016 /* ClamPizza.m */; };
+		8BAF430C16BC8FFB00E9C016 /* PepperoniPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF430B16BC8FFB00E9C016 /* PepperoniPizza.m */; };
+		8BAF430F16BC901E00E9C016 /* VeggiePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF430E16BC901D00E9C016 /* VeggiePizza.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +38,22 @@
 		8BAF42DE16BB4B8000E9C016 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8BAF42E116BB4B8000E9C016 /* PizzaStore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PizzaStore-Prefix.pch"; sourceTree = "<group>"; };
 		8BAF42E216BB4B8000E9C016 /* PizzaStore.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PizzaStore.1; sourceTree = "<group>"; };
+		8BAF42F016BC81EB00E9C016 /* Pizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pizza.h; path = Pizzas/Pizza.h; sourceTree = "<group>"; };
+		8BAF42F116BC81EB00E9C016 /* Pizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pizza.m; path = Pizzas/Pizza.m; sourceTree = "<group>"; };
+		8BAF42F516BC89C500E9C016 /* PizzaStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PizzaStore.h; sourceTree = "<group>"; };
+		8BAF42F616BC89C500E9C016 /* PizzaStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PizzaStore.m; sourceTree = "<group>"; };
+		8BAF42F716BC89C500E9C016 /* SimplePizzaFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePizzaFactory.h; sourceTree = "<group>"; };
+		8BAF42F816BC89C500E9C016 /* SimplePizzaFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePizzaFactory.m; sourceTree = "<group>"; };
+		8BAF42FB16BC89F500E9C016 /* Pizzas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Pizzas.h; path = Pizzas/Pizzas.h; sourceTree = "<group>"; };
+		8BAF42FC16BC8A7B00E9C016 /* CheesePizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CheesePizza.h; path = Pizzas/CheesePizza.h; sourceTree = "<group>"; };
+		8BAF42FD16BC8A7B00E9C016 /* CheesePizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CheesePizza.m; path = Pizzas/CheesePizza.m; sourceTree = "<group>"; };
+		8BAF42FF16BC8E0C00E9C016 /* ClamPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClamPizza.h; path = Pizzas/ClamPizza.h; sourceTree = "<group>"; };
+		8BAF430016BC8E0C00E9C016 /* ClamPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClamPizza.m; path = Pizzas/ClamPizza.m; sourceTree = "<group>"; };
+		8BAF430A16BC8FFB00E9C016 /* PepperoniPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PepperoniPizza.h; path = Pizzas/PepperoniPizza.h; sourceTree = "<group>"; };
+		8BAF430B16BC8FFB00E9C016 /* PepperoniPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PepperoniPizza.m; path = Pizzas/PepperoniPizza.m; sourceTree = "<group>"; };
+		8BAF430D16BC901D00E9C016 /* VeggiePizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeggiePizza.h; path = Pizzas/VeggiePizza.h; sourceTree = "<group>"; };
+		8BAF430E16BC901D00E9C016 /* VeggiePizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VeggiePizza.m; path = Pizzas/VeggiePizza.m; sourceTree = "<group>"; };
+		8BAF431016BC908200E9C016 /* PizzaType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PizzaType.h; path = Pizzas/PizzaType.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,9 +96,11 @@
 		8BAF42DD16BB4B8000E9C016 /* PizzaStore */ = {
 			isa = PBXGroup;
 			children = (
+				8BAF42F416BC89C500E9C016 /* PizzaFactory */,
 				8BAF42DE16BB4B8000E9C016 /* main.m */,
 				8BAF42E216BB4B8000E9C016 /* PizzaStore.1 */,
 				8BAF42E016BB4B8000E9C016 /* Supporting Files */,
+				8BAF42EC16BB507900E9C016 /* Pizzas */,
 			);
 			path = PizzaStore;
 			sourceTree = "<group>";
@@ -86,6 +111,36 @@
 				8BAF42E116BB4B8000E9C016 /* PizzaStore-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BAF42EC16BB507900E9C016 /* Pizzas */ = {
+			isa = PBXGroup;
+			children = (
+				8BAF431016BC908200E9C016 /* PizzaType.h */,
+				8BAF42FB16BC89F500E9C016 /* Pizzas.h */,
+				8BAF42F016BC81EB00E9C016 /* Pizza.h */,
+				8BAF42F116BC81EB00E9C016 /* Pizza.m */,
+				8BAF42FC16BC8A7B00E9C016 /* CheesePizza.h */,
+				8BAF42FD16BC8A7B00E9C016 /* CheesePizza.m */,
+				8BAF42FF16BC8E0C00E9C016 /* ClamPizza.h */,
+				8BAF430016BC8E0C00E9C016 /* ClamPizza.m */,
+				8BAF430A16BC8FFB00E9C016 /* PepperoniPizza.h */,
+				8BAF430B16BC8FFB00E9C016 /* PepperoniPizza.m */,
+				8BAF430D16BC901D00E9C016 /* VeggiePizza.h */,
+				8BAF430E16BC901D00E9C016 /* VeggiePizza.m */,
+			);
+			name = Pizzas;
+			sourceTree = "<group>";
+		};
+		8BAF42F416BC89C500E9C016 /* PizzaFactory */ = {
+			isa = PBXGroup;
+			children = (
+				8BAF42F516BC89C500E9C016 /* PizzaStore.h */,
+				8BAF42F616BC89C500E9C016 /* PizzaStore.m */,
+				8BAF42F716BC89C500E9C016 /* SimplePizzaFactory.h */,
+				8BAF42F816BC89C500E9C016 /* SimplePizzaFactory.m */,
+			);
+			path = PizzaFactory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +195,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BAF42DF16BB4B8000E9C016 /* main.m in Sources */,
+				8BAF42F216BC81EB00E9C016 /* Pizza.m in Sources */,
+				8BAF42F916BC89C500E9C016 /* PizzaStore.m in Sources */,
+				8BAF42FA16BC89C500E9C016 /* SimplePizzaFactory.m in Sources */,
+				8BAF42FE16BC8A7B00E9C016 /* CheesePizza.m in Sources */,
+				8BAF430116BC8E0D00E9C016 /* ClamPizza.m in Sources */,
+				8BAF430C16BC8FFB00E9C016 /* PepperoniPizza.m in Sources */,
+				8BAF430F16BC901E00E9C016 /* VeggiePizza.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
