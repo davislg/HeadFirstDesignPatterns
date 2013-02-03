@@ -18,14 +18,7 @@
 }
 
 -(Pizza *) orderPizza:(PizzaType)type {
-    Pizza *pizza = [self createPizza:type];
-    
-    [pizza prepare];
-    [pizza bake];
-    [pizza cut];
-    [pizza box];
-    
-    return pizza;
+    return [self createPizza:type];
 }
 
 -(Pizza *) createPizza:(PizzaType)type {

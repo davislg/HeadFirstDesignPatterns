@@ -7,7 +7,6 @@
 //
 
 #import "NYStylePizzaStore.h"
-#import "NYStylePizzas.h"
 
 @implementation NYStylePizzaStore
 
@@ -18,18 +17,23 @@
 
 -(Pizza *) createPizza:(PizzaType) type {
     Pizza *pizza;
+    ingredientFactory = [[NYPizzaIngredientFactory alloc] init];
     switch (type) {
-        case NYStyleCheese:
-            pizza = [[NYStyleCheesePizza alloc] init];
+        case Cheese:
+            pizza = [[CheesePizza alloc] init:ingredientFactory];
+            [pizza setName:@"New York Style Cheese Pizza"];
             break;
-        case NYStyleClam:
-            pizza = [[NYStyleClamPizza alloc] init];
+        case Clam:
+            pizza = [[ClamPizza alloc] init:ingredientFactory];
+            [pizza setName:@"New York Style Clam Pizza"];
             break;
-        case NYStylePepperoni:
-            pizza = [[NYStylePepperoniPizza alloc] init];
+        case Pepperoni:
+            pizza = [[PepperoniPizza alloc] init:ingredientFactory];
+            [pizza setName:@"New York Style Pepperoni Pizza"];
             break;
-        case NYStyleVeggie:
-            pizza = [[NYStyleVeggiePizza alloc] init];
+        case Veggie:
+            pizza = [[VeggiePizza alloc] init:ingredientFactory];
+            [pizza setName:@"New York Style Veggie Pizza"];
             break;
         default:
             return Nil;

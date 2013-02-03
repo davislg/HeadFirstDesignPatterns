@@ -9,9 +9,14 @@
 #import "PizzaType.h"
 #import "Pizza.h"
 
-#import "CaliforniaStylePizzas.h"
-#import "ChicagoStylePizzas.h"
-#import "NYStylePizzas.h"
+//#import "CaliforniaStylePizzas.h"
+//#import "ChicagoStylePizzas.h"
+//#import "NYStylePizzas.h"
+
+#import "CheesePizza.h"
+#import "ClamPizza.h"
+#import "PepperoniPizza.h"
+#import "VeggiePizza.h"
 
 
 

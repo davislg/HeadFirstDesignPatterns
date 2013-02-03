@@ -16,19 +16,21 @@
     return nil;
 }
 
+-(id) init:(NSObject<PizzaIngredientFactory> *)aIngredientFactory {
+    ingredientFactory = aIngredientFactory;
+    return self;
+}
+
 -(NSString *) getName {
     return name;
 }
 
+-(void) setName:(NSString *)aName {
+    name = aName;
+}
+
 -(void) prepare {
-    // prepare pizza
-    printf("Preparing %s\n", [name UTF8String]);
-    printf("Tossing dough...\n");
-    printf("Adding sauce...\n");
-    printf("Adding toppings...\n");
-    for (NSString *topping in toppings) {
-        printf("\t %s\n", [topping UTF8String]);
-    }
+    [self doesNotRecognizeSelector:_cmd];
 }
 
 -(void) bake {
