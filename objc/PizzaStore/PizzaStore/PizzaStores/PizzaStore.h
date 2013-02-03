@@ -11,12 +11,13 @@
 #import "SimplePizzaFactory.h"
 
 @interface PizzaStore : NSObject {
-
+    NSString *name;
     SimplePizzaFactory *factory;
     
 }
 
--(id) init:(SimplePizzaFactory *) aFactory;
+//-(id) init:(SimplePizzaFactory *) aFactory;
 -(Pizza *) orderPizza:(PizzaType) type;
+-(Pizza *) createPizza:(PizzaType) type;
 
 @end

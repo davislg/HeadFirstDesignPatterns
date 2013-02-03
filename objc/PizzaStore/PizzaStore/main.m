@@ -7,37 +7,29 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "PizzaStore.h"
+#import "PizzaStores.h"
 #import "SimplePizzaFactory.h"
-#import "Pizza.h"
+#import "Pizzas.h"
 
 int main (int argc, const char * argv[]) {
 
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 
-    PizzaStore *pizzaStore = [[PizzaStore alloc] init:[[SimplePizzaFactory alloc] init]];
     Pizza *pizza;
-    
+
+    // NY Store
+    PizzaStore *nyStore = [[NYStylePizzaStore alloc] init];
     // Cheese Pizza
-    pizza = [pizzaStore orderPizza: Cheese];
-    printf("%s delivered\n", [[pizza getDescription] UTF8String]);
+    pizza = [nyStore orderPizza:NYStyleCheese];
+    printf("%s delivered\n", [[pizza getName] UTF8String]);
     printf("\n");
-
-    // Clam Pizza
-    pizza = [pizzaStore orderPizza: Clam];
-    printf("%s delivered\n", [[pizza getDescription] UTF8String]);
+    
+    // Chicago Store
+    PizzaStore *chicagoStore = [[ChicagoStylePizzaStore alloc] init];
+    // Cheese Pizza
+    pizza = [chicagoStore orderPizza:ChicagoStyleCheese];
+    printf("%s delivered\n", [[pizza getName] UTF8String]);
     printf("\n");
-
-    // Pepperoni Pizza
-    pizza = [pizzaStore orderPizza: Pepperoni];
-    printf("%s delivered\n", [[pizza getDescription] UTF8String]);
-    printf("\n");
-
-    // Veggie Pizza
-    pizza = [pizzaStore orderPizza: Veggie];
-    printf("%s delivered\n", [[pizza getDescription] UTF8String]);
-    printf("\n");
-
     
     [pool drain];
     return 0;

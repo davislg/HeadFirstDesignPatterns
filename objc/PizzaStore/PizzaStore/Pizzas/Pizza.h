@@ -9,10 +9,14 @@
 #import <Foundation/Foundation.h>
 
 @interface Pizza : NSObject {
-    NSString *description;
+    NSString *name;
+    NSString *dough;
+    NSString *sauce;
+    NSMutableArray *toppings;
 }
+
 -(id) init;
--(NSString *) getDescription;
+-(NSString *) getName;
 
 -(void) prepare;
 -(void) bake;

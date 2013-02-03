@@ -11,7 +11,7 @@
 @implementation CheesePizza
 
 -(id) init {
-    description = @"Cheese Pizza";
+    name = @"Cheese Pizza";
     return self;
 }
 

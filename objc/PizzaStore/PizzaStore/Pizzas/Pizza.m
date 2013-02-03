@@ -16,28 +16,34 @@
     return nil;
 }
 
--(NSString *) getDescription {
-    return description;
+-(NSString *) getName {
+    return name;
 }
 
 -(void) prepare {
     // prepare pizza
-    printf("Preparing %s\n", [description UTF8String]);
+    printf("Preparing %s\n", [name UTF8String]);
+    printf("Tossing dough...\n");
+    printf("Adding sauce...\n");
+    printf("Adding toppings...\n");
+    for (NSString *topping in toppings) {
+        printf("\t %s\n", [topping UTF8String]);
+    }
 }
 
 -(void) bake {
     // bake pizza
-    printf("Baking %s\n", [description UTF8String]);
+    printf("Baking the pizza for 25 minutes at 350˚\n");
 }
 
 -(void) cut {
     // cut pizza
-    printf("Cutting %s\n", [description UTF8String]);
+    printf("Cutting the pizza into diagonal slices\n");
 }
 
 -(void) box {
     // box pizza
-    printf("Box %s\n", [description UTF8String]);
+    printf("Place the pizza in offical PizzaStore box\n");
 }
 
 @end

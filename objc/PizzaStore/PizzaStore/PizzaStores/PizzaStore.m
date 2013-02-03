@@ -10,13 +10,15 @@
 
 @implementation PizzaStore
 
--(id) init:(SimplePizzaFactory *) aFactory {
-    factory = aFactory;
-    return self;
+-(id) init {
+    // Enforce pseudo abstract class
+    [self doesNotRecognizeSelector:_cmd];
+    [self release];
+    return nil;
 }
 
 -(Pizza *) orderPizza:(PizzaType)type {
-    Pizza *pizza = [factory createPizza:type];
+    Pizza *pizza = [self createPizza:type];
     
     [pizza prepare];
     [pizza bake];
@@ -24,6 +26,12 @@
     [pizza box];
     
     return pizza;
+}
+
+-(Pizza *) createPizza:(PizzaType)type {
+    // Enforce pseudo abstract method
+    [self doesNotRecognizeSelector:_cmd];
+    return Nil;
 }
 
 @end
