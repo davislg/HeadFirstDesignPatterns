@@ -12,15 +12,15 @@
 @implementation ChicagoPizzaIngredientFactory
 
 -(NSObject<Clam> *) createClam {
-    return [[FreshClams alloc] init];
+    return [[FrozenClams alloc] init];
 }
 
 -(NSObject<Dough> *) createDough {
-    return [[ThinCrustDough alloc] init];
+    return [[ThickCrustDough alloc] init];
 }
 
 -(NSObject<Sauce> *) createSauce {
-    return [[MarinaraSauce alloc] init];
+    return [[PlumTomatoSauce alloc] init];
 }
 
 -(NSObject<Cheese> *) createCheese {
@@ -30,11 +30,10 @@
 -(NSMutableArray<Vegetable> *) createVeggies {
     NSMutableArray<Vegetable> *veggies = [NSMutableArray init];
 
-    [veggies addObject:[[Garlic alloc] init]];
-    [veggies addObject:[[Onion alloc] init]];
-    [veggies addObject:[[Mushroom alloc] init]];
-    [veggies addObject:[[RedPepper alloc] init]];
-    
+    [veggies addObject:[[BlackOlives alloc] init]];
+    [veggies addObject:[[Spinach alloc] init]];
+    [veggies addObject:[[EggPlant alloc] init]];
+
     return veggies;
 }
 

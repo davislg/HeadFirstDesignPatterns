@@ -12,27 +12,25 @@
 @implementation CaliforniaPizzaIngredientFactory
 
 -(NSObject<Clam> *) createClam {
-    return [[FreshClams alloc] init];
+    return [[Calamari alloc] init];
 }
 
 -(NSObject<Dough> *) createDough {
-    return [[ThinCrustDough alloc] init];
+    return [[VeryThinCrustDough alloc] init];
 }
 
 -(NSObject<Sauce> *) createSauce {
-    return [[MarinaraSauce alloc] init];
+    return [[BruschettaSauce alloc] init];
 }
 
 -(NSObject<Cheese> *) createCheese {
-    return [[ReggianoCheese alloc] init];
+    return [[GoatCheese alloc] init];
 }
 
 -(NSMutableArray<Vegetable> *) createVeggies {
     NSMutableArray<Vegetable> *veggies = [NSMutableArray init];
 
-    [veggies addObject:[[Garlic alloc] init]];
-    [veggies addObject:[[Onion alloc] init]];
-    [veggies addObject:[[Mushroom alloc] init]];
+    [veggies addObject:[[BlackOlives alloc] init]];
     [veggies addObject:[[RedPepper alloc] init]];
     
     return veggies;
