@@ -12,6 +12,12 @@
 
 -(id) init {
     name = @"Chicago Style Pepperoni Pizza";
+    dough = @"Extra Thick Crust Dough";
+    sauce = @"Marinara Sauce";
+    
+    toppings = [NSMutableArray array];
+    [toppings addObject:@"Extra Pepperonis"];
+    
     return self;
 }
 

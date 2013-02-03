@@ -11,7 +11,13 @@
 @implementation CaliforniaStyleCheesePizza
 
 -(id) init {
-    name = @"California Style Cheese Pizza";
+    name = @"California Style Sauce and Cheese Pizza";
+    dough = @"Normal Crust Dough";
+    sauce = @"White Sauce";
+    
+    toppings = [NSMutableArray array];
+    [toppings addObject:@"Extra Grated Reggiano Cheese"];
+    
     return self;
 }
 

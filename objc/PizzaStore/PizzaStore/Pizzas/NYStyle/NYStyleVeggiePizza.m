@@ -12,7 +12,17 @@
 
 -(id) init {
     name = @"NY Style Veggie Pizza";
+    dough = @"Extra Thin Crust Dough";
+    sauce = @"Ranch Dressing";
+    
+    toppings = [NSMutableArray array];
+    [toppings addObject:@"Vegetables"];
+    
     return self;
+}
+
+-(void) cut {
+    printf("Cutting the pizza into square slices\n");
 }
 
 @end

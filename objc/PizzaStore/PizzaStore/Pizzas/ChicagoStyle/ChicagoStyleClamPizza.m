@@ -11,7 +11,13 @@
 @implementation ChicagoStyleClamPizza
 
 -(id) init {
-    name = @"Chicago Style Clam Pizza";
+    name = @"Chicago Style Deep Dish Clam Pizza";
+    dough = @"Extra Thick Crust Dough";
+    sauce = @"Clam Sauce";
+    
+    toppings = [NSMutableArray array];
+    [toppings addObject:@"Clam Meat"];
+    
     return self;
 }
 

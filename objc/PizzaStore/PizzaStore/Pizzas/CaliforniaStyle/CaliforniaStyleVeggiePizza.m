@@ -12,6 +12,12 @@
 
 -(id) init {
     name = @"California Style Veggie Pizza";
+    dough = @"Normal Crust Dough";
+    sauce = @"Ranch Dressing";
+    
+    toppings = [NSMutableArray array];
+    [toppings addObject:@"Vegetables"];
+    
     return self;
 }
 

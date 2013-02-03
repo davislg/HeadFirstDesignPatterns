@@ -26,11 +26,18 @@ int main (int argc, const char * argv[]) {
     
     // Chicago Store
     PizzaStore *chicagoStore = [[ChicagoStylePizzaStore alloc] init];
-    // Cheese Pizza
-    pizza = [chicagoStore orderPizza:ChicagoStyleCheese];
+    // Pepperoni Pizza
+    pizza = [chicagoStore orderPizza:ChicagoStylePepperoni];
     printf("%s delivered\n", [[pizza getName] UTF8String]);
     printf("\n");
-    
+
+    // California Store
+    PizzaStore *californiaStore = [[CaliforniaStylePizzaStore alloc] init];
+    // Veggie Pizza
+    pizza = [californiaStore orderPizza:CaliforniaStyleVeggie];
+    printf("%s delivered\n", [[pizza getName] UTF8String]);
+    printf("\n");
+
     [pool drain];
     return 0;
 }

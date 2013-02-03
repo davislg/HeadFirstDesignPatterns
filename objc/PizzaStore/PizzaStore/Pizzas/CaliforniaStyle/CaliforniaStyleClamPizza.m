@@ -12,6 +12,12 @@
 
 -(id) init {
     name = @"California Style Clam Pizza";
+    dough = @"Extra Thin Crust Dough";
+    sauce = @"Light Clam Sauce";
+    
+    toppings = [NSMutableArray array];
+    [toppings addObject:@"Extra Clam Meat"];
+    
     return self;
 }
 
