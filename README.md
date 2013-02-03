@@ -11,3 +11,4 @@ Patterns:
 	WeatherMonitor		Observer Pattern
 	StarbuzzCoffee		Decorator Pattern
     PizzaStore          Factory Pattern (Abstract Factory & Method Factory)
+
