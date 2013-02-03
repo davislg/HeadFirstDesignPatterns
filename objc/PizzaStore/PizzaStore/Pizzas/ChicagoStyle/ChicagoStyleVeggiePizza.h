@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Liquid Thoughts. All rights reserved.
 //
 
-#import "VeggiePizza.h"
+#import "Pizza.h"
 
-@interface ChicagoStyleVeggiePizza : VeggiePizza
+@interface ChicagoStyleVeggiePizza : Pizza
 
 @end

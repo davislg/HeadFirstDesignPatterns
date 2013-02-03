@@ -7,6 +7,7 @@
 //
 
 #import "CaliforniaStylePizzaStore.h"
+#import "CaliforniaStylePizzas.h"
 
 @implementation CaliforniaStylePizzaStore
 

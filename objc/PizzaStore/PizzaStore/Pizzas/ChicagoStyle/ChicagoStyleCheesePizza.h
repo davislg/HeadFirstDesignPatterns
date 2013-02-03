@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Liquid Thoughts. All rights reserved.
 //
 
-#import "CheesePizza.h"
+#import "Pizza.h"
 
-@interface ChicagoStyleCheesePizza : CheesePizza
+@interface ChicagoStyleCheesePizza : Pizza
 
 @end

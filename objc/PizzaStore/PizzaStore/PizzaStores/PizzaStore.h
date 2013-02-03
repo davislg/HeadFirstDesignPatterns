@@ -8,15 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import "Pizza.h"
-#import "SimplePizzaFactory.h"
+#import "PizzaType.h"
 
 @interface PizzaStore : NSObject {
     NSString *name;
-    SimplePizzaFactory *factory;
-    
 }
 
-//-(id) init:(SimplePizzaFactory *) aFactory;
 -(Pizza *) orderPizza:(PizzaType) type;
 -(Pizza *) createPizza:(PizzaType) type;
 

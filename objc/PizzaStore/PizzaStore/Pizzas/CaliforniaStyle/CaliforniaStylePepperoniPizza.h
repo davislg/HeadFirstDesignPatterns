@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Liquid Thoughts. All rights reserved.
 //
 
-#import "PepperoniPizza.h"
+#import "Pizza.h"
 
-@interface CaliforniaStylePepperoniPizza : PepperoniPizza
+@interface CaliforniaStylePepperoniPizza : Pizza
 
 @end

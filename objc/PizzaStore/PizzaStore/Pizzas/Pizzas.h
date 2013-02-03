@@ -8,10 +8,6 @@
 
 #import "PizzaType.h"
 #import "Pizza.h"
-#import "CheesePizza.h"
-#import "ClamPizza.h"
-#import "PepperoniPizza.h"
-#import "VeggiePizza.h"
 
 #import "CaliforniaStylePizzas.h"
 #import "ChicagoStylePizzas.h"

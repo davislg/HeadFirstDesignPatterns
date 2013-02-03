@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "PizzaStores.h"
-#import "SimplePizzaFactory.h"
 #import "Pizzas.h"
 
 int main (int argc, const char * argv[]) {

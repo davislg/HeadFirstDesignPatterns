@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Liquid Thoughts. All rights reserved.
 //
 
-#import "ClamPizza.h"
+#import "Pizza.h"
 
-@interface NYStyleClamPizza : ClamPizza
+@interface NYStyleClamPizza : Pizza
 
 @end
