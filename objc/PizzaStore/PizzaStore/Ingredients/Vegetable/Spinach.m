@@ -17,4 +17,8 @@
     return self;
 }
 
+-(NSString *) getName {
+    return name;
+}
+
 @end

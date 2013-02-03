@@ -28,7 +28,7 @@
 }
 
 -(NSMutableArray<Vegetable> *) createVeggies {
-    NSMutableArray<Vegetable> *veggies = [NSMutableArray init];
+    NSMutableArray<Vegetable> *veggies = [NSMutableArray array];
 
     [veggies addObject:[[Garlic alloc] init]];
     [veggies addObject:[[Onion alloc] init]];
