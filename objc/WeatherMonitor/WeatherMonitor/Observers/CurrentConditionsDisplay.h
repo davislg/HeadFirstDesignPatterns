@@ -12,11 +12,11 @@
 #import "DisplayElement.h"
 #import "WeatherData.h"
 
-@interface CurrentConditionsDisplay : NSObject<Observer, DisplayElement> {
-    NSObject<Subject> *weatherData;
-    float humidity;
-    float temperature;
-}
+@interface CurrentConditionsDisplay : NSObject<Observer, DisplayElement>
+
+@property (nonatomic, strong) NSObject<Subject> *weatherData;
+@property (nonatomic, assign) float humidity;
+@property (nonatomic, assign) float temperature;
 
 -(id) init:(NSObject<Subject> *)data;
 

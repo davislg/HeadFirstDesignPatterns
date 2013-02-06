@@ -35,7 +35,6 @@ int main (int argc, const char * argv[]) {
     
     [weatherData setMeasurements:78 :90 :29.2f];
 
-    
     [pool drain];
     return 0;
 }

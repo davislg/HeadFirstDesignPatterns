@@ -10,43 +10,27 @@
 
 @implementation WeatherData
 
-@synthesize observers;
-@synthesize humidity;
-@synthesize pressure;
-@synthesize temperature;
-
 -(id) init {
-    observers = [[NSMutableArray alloc] init];
+    _observers = [[NSMutableArray alloc] init];
     return self;
 }
 
 -(void) registerObserver:(NSObject<Observer> *)observer {
-    [observers addObject:observer];
+    [self.observers addObject:observer];
 }
 
 -(void) removeObserver:(NSObject<Observer> *)observer {
-    [observers removeObject:observer];
+    [self.observers removeObject:observer];
 }
 
 -(void) notifyObservers {
     printf("New weather updates:\n");
-    for (id observer in observers) {
-        [observer update:temperature :humidity :pressure];
+    for (id observer in self.observers) {
+        [observer update:self.temperature :self.humidity :self.pressure];
     }
     printf("\n");
 }
 
--(float) getHumidity {
-    return humidity;
-}
-
--(float) getPressure {
-    return pressure;
-}
-
--(float) getTemperature {
-    return temperature;
-}
 
 -(void) measurementsChanged {
     [self notifyObservers];
@@ -54,9 +38,9 @@
 
 
 -(void) setMeasurements:(float)aTemperature :(float)aHumitity :(float)aPressure {
-    temperature = aTemperature;
-    humidity = aHumitity;
-    pressure = aPressure;
+    self.temperature = aTemperature;
+    self.humidity = aHumitity;
+    self.pressure = aPressure;
     
     [self measurementsChanged];
 }

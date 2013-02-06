@@ -11,8 +11,8 @@
 @implementation StatisticsDisplay
 
 -(id) init:(NSObject<Subject> *)data {
-    weatherData = data;
-    [weatherData registerObserver:self];
+    _weatherData = data;
+    [_weatherData registerObserver:self];
     return self;
 }
 
@@ -21,7 +21,7 @@
 }
 
 -(void) display {
-    printf("Statistics: %f F degrees and %f %% humidity\n", temperature, humidity);
+    printf("Statistics: %f F degrees and %f %% humidity\n", self.temperature, self.humidity);
 
 }
 

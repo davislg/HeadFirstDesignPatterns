@@ -11,8 +11,8 @@
 @implementation ThirdPartyDisplay
 
 -(id) init:(NSObject<Subject> *)data {
-    weatherData = data;
-    [weatherData registerObserver:self];
+    _weatherData = data;
+    [_weatherData registerObserver:self];
     return self;
 }
 
@@ -21,7 +21,7 @@
 }
 
 -(void) display {
-    printf("Third Party: %f F degrees and %f %% humidity\n", temperature, humidity);
+    printf("Third Party: %f F degrees and %f %% humidity\n", self.temperature, self.humidity);
 }
 
 @end

@@ -11,12 +11,12 @@
 #import "DisplayElement.h"
 #import "Subject.h"
 
-@interface ThirdPartyDisplay : NSObject<Observer, DisplayElement>{
-    NSObject<Subject> *weatherData;
-    float humidity;
-    float temperature;
-    float pressure;
-}
+@interface ThirdPartyDisplay : NSObject<Observer, DisplayElement>
+
+@property (nonatomic, strong) NSObject<Subject> *weatherData;
+@property (nonatomic, assign) float humidity;
+@property (nonatomic, assign) float temperature;
+@property (nonatomic, assign) float pressure;
 
 -(id) init:(NSObject<Subject> *)data;
 

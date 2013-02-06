@@ -21,11 +21,6 @@
 -(void) removeObserver:(NSObject<Observer> *)observer;
 -(void) notifyObservers;
 
-
--(float) getHumidity;
--(float) getPressure;
--(float) getTemperature;
-
 -(void) measurementsChanged;
 
 -(void) setMeasurements:(float)aTemperature :(float)aHumitity :(float)aPressure;
