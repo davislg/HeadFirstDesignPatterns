@@ -188,9 +188,9 @@
 		8BAF42DD16BB4B8000E9C016 /* PizzaStore */ = {
 			isa = PBXGroup;
 			children = (
+				8BAF42DE16BB4B8000E9C016 /* main.m */,
 				8BAF436616BE12DA00E9C016 /* Ingredients */,
 				8BAF436116BE11CE00E9C016 /* IngredientFactories */,
-				8BAF42DE16BB4B8000E9C016 /* main.m */,
 				8BAF42EC16BB507900E9C016 /* Pizzas */,
 				8BAF431B16BDC09800E9C016 /* PizzaStores */,
 				8BAF42E016BB4B8000E9C016 /* Supporting Files */,

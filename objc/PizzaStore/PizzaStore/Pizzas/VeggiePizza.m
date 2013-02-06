@@ -14,16 +14,16 @@
 
 -(void) prepare {
     // prepare pizza
-    printf("Preparing %s\n", [name UTF8String]);
-    dough = [ingredientFactory createDough];
-    printf("Adding dough: %s\n", [dough.name UTF8String]);
-    sauce = [ingredientFactory createSauce];
-    printf("Adding sauce: %s\n", [sauce.name UTF8String]);
-    cheese = [ingredientFactory createCheese];
-    printf("Adding cheese: %s\n", [cheese.name UTF8String]);
-    veggies = [ingredientFactory createVeggies];
+    printf("Preparing %s\n", [self.name UTF8String]);
+    self.dough = [self.ingredientFactory createDough];
+    printf("Adding dough: %s\n", [self.dough.name UTF8String]);
+    self.sauce = [self.ingredientFactory createSauce];
+    printf("Adding sauce: %s\n", [self.sauce.name UTF8String]);
+    self.cheese = [self.ingredientFactory createCheese];
+    printf("Adding cheese: %s\n", [self.cheese.name UTF8String]);
+    self.veggies = [self.ingredientFactory createVeggies];
     printf("Adding veggies:\n");
-    for (id <Vegetable> vegetable in veggies) {
+    for (id <Vegetable> vegetable in self.veggies) {
         printf("\t%s\n", [vegetable.name UTF8String]);
     }
 }

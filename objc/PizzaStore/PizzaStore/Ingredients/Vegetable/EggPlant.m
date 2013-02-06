@@ -10,15 +10,9 @@
 
 @implementation EggPlant
 
-@synthesize name;
-
 -(id) init {
-    name = @"EggPlant";
+    self.name = @"EggPlant";
     return self;
-}
-
--(NSString *) getName {
-    return name;
 }
 
 @end

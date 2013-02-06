@@ -10,15 +10,9 @@
 
 @implementation Calamari
 
-@synthesize name;
-
 -(id) init {
-    name = @"Calamari";
+    self.name = @"Calamari";
     return self;
-}
-
--(NSString *) getName {
-    return name;
 }
 
 @end

@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "Clam.h"
 
-@interface Calamari : NSObject<Clam> {
-    NSString *name;
-}
+@interface Calamari : NSObject<Clam>
+
+@property (nonatomic, strong) NSString *name;
 
 -(id) init;
 

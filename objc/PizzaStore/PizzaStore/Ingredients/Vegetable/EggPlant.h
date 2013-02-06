@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "Vegetable.h"
 
-@interface EggPlant : NSObject<Vegetable> {
-    NSString *name;
-}
+@interface EggPlant : NSObject<Vegetable>
+
+@property (nonatomic, strong) NSString *name;
 
 -(id) init;
 

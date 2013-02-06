@@ -12,15 +12,15 @@
 
 -(void) prepare {
     // prepare pizza
-    printf("Preparing %s\n", [name UTF8String]);
-    dough = [ingredientFactory createDough];
-    printf("Adding dough: %s\n", [dough.name UTF8String]);
-    sauce = [ingredientFactory createSauce];
-    printf("Adding sauce: %s\n", [sauce.name UTF8String]);
-    cheese = [ingredientFactory createCheese];
-    printf("Adding cheese: %s\n", [cheese.name UTF8String]);
-    pepperoni = [ingredientFactory createPepperoni];
-    printf("Adding pepperoni: %s\n", [pepperoni.name UTF8String]);
+    printf("Preparing %s\n", [self.name UTF8String]);
+    self.dough = [self.ingredientFactory createDough];
+    printf("Adding dough: %s\n", [self.dough.name UTF8String]);
+    self.sauce = [self.ingredientFactory createSauce];
+    printf("Adding sauce: %s\n", [self.sauce.name UTF8String]);
+    self.cheese = [self.ingredientFactory createCheese];
+    printf("Adding cheese: %s\n", [self.cheese.name UTF8String]);
+    self.pepperoni = [self.ingredientFactory createPepperoni];
+    printf("Adding pepperoni: %s\n", [self.pepperoni.name UTF8String]);
 }
 
 @end

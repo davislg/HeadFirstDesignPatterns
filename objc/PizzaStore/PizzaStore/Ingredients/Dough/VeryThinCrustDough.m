@@ -10,15 +10,9 @@
 
 @implementation VeryThinCrustDough 
 
-@synthesize name;
-
 -(id) init {
-    name = @"Very Thin Crust Dough";
+    self.name = @"Very Thin Crust Dough";
     return self;
-}
-
--(NSString *) getName {
-    return name;
 }
 
 @end

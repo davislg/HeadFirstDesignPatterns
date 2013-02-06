@@ -17,16 +17,8 @@
 }
 
 -(id) init:(NSObject<PizzaIngredientFactory> *)aIngredientFactory {
-    ingredientFactory = aIngredientFactory;
+    self.ingredientFactory = aIngredientFactory;
     return self;
-}
-
--(NSString *) getName {
-    return name;
-}
-
--(void) setName:(NSString *)aName {
-    name = aName;
 }
 
 -(void) prepare {

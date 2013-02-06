@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "Clam.h"
 
-@interface FreshClams : NSObject<Clam> {
-    NSString *name;
-}
+@interface FreshClams : NSObject<Clam>
+
+@property (nonatomic, strong) NSString *name;
 
 -(id) init;
 

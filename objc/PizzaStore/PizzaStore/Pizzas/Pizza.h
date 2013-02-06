@@ -10,24 +10,21 @@
 #import "PizzaIngredientFactory.h"
 #import "Ingredients.h"
 
-@interface Pizza : NSObject {
-    NSObject<PizzaIngredientFactory> *ingredientFactory;
+@interface Pizza : NSObject
+
+@property (nonatomic, strong) NSObject<PizzaIngredientFactory> *ingredientFactory;
     
-    NSString *name;
-    NSObject<Dough> *dough;
-    NSObject<Sauce> *sauce;
-    NSObject<Cheese> *cheese;
-    NSObject<Pepperoni> *pepperoni;
-    NSObject<Clam> *clam;
+@property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSObject<Dough> *dough;
+@property (nonatomic, strong) NSObject<Sauce> *sauce;
+@property (nonatomic, strong) NSObject<Cheese> *cheese;
+@property (nonatomic, strong) NSObject<Pepperoni> *pepperoni;
+@property (nonatomic, strong) NSObject<Clam> *clam;
     
-    NSMutableArray<Vegetable> *veggies;
-}
+@property (nonatomic, strong) NSMutableArray<Vegetable> *veggies;
 
 -(id) init;
 -(id) init:(NSObject<PizzaIngredientFactory> *) aIngredientFactory;
-
--(NSString *) getName;
--(void) setName:(NSString *) aName;
 
 -(void) prepare;
 -(void) bake;

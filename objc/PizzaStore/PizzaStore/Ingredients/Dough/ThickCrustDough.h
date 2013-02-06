@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "Dough.h"
 
-@interface ThickCrustDough : NSObject<Dough> {
-    NSString *name;
-}
+@interface ThickCrustDough : NSObject<Dough>
+
+@property (nonatomic, strong) NSString *name;
 
 -(id) init;
 

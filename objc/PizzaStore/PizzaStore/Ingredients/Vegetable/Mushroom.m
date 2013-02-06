@@ -10,15 +10,9 @@
 
 @implementation Mushroom
 
-@synthesize name;
-
 -(id) init {
-    name = @"Mushroom";
+    self.name = @"Mushroom";
     return self;
-}
-
--(NSString *) getName {
-    return name;
 }
 
 @end

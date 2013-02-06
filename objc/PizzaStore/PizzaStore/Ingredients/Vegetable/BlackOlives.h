@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "Vegetable.h"
 
-@interface BlackOlives : NSObject<Vegetable> {
-    NSString *name;
-}
+@interface BlackOlives : NSObject<Vegetable>
+
+@property (nonatomic, strong) NSString *name;
 
 -(id) init;
 

@@ -10,15 +10,9 @@
 
 @implementation FreshClams
 
-@synthesize name;
-
 -(id) init {
-    name = @"Fresh Clams";
+    self.name = @"Fresh Clams";
     return self;
-}
-
--(NSString *) getName {
-    return name;
 }
 
 @end

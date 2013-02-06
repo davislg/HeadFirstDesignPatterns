@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "Pepperoni.h"
 
-@interface SlicedPepperoni : NSObject<Pepperoni> {
-    NSString *name;
-}
+@interface SlicedPepperoni : NSObject<Pepperoni>
+
+@property (nonatomic, strong) NSString *name;
 
 -(id) init;
 

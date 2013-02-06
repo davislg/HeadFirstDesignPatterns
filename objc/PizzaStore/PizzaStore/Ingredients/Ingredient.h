@@ -14,6 +14,4 @@
 
 @property (nonatomic, strong) NSString *name;
 
-//-(NSString *) getName;
-
 @end

@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "Vegetable.h"
 
-@interface Mushroom : NSObject<Vegetable> {
-    NSString *name;
-}
+@interface Mushroom : NSObject<Vegetable>
+
+@property (nonatomic, strong) NSString *name;
 
 -(id) init;
 

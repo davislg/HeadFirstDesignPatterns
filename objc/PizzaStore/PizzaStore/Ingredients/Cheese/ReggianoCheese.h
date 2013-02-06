@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "Cheese.h"
 
-@interface ReggianoCheese : NSObject<Cheese>  {
-    NSString *name;
-}
+@interface ReggianoCheese : NSObject<Cheese>
+
+@property (nonatomic, strong) NSString *name;
 
 -(id) init;
 

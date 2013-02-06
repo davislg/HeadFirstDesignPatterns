@@ -10,15 +10,9 @@
 
 @implementation Spinach
 
-@synthesize name;
-
 -(id) init {
-    name = @"Spinach";
+    self.name = @"Spinach";
     return self;
-}
-
--(NSString *) getName {
-    return name;
 }
 
 @end

@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "Vegetable.h"
 
-@interface RedPepper : NSObject<Vegetable> {
-    NSString *name;
-}
+@interface RedPepper : NSObject<Vegetable>
+
+@property (nonatomic, strong) NSString *name;
 
 -(id) init;
 

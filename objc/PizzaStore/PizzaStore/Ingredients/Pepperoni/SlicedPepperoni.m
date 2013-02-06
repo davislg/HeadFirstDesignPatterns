@@ -10,15 +10,9 @@
 
 @implementation SlicedPepperoni
 
-@synthesize name;
-
 -(id) init {
-    name = @"Sliced Pepperoni";
+    self.name = @"Sliced Pepperoni";
     return self;
-}
-
--(NSString *) getName {
-    return name;
 }
 
 @end

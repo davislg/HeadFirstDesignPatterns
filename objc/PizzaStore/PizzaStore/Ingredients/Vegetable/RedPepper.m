@@ -10,15 +10,9 @@
 
 @implementation RedPepper
 
-@synthesize name;
-
 -(id) init {
-    name = @"RedPepper";
+    self.name = @"RedPepper";
     return self;
-}
-
--(NSString *) getName {
-    return name;
 }
 
 @end

@@ -10,15 +10,9 @@
 
 @implementation BlackOlives
 
-@synthesize name;
-
 -(id) init {
-    name = @"Black Olives";
+    self.name = @"Black Olives";
     return self;
-}
-
--(NSString *) getName {
-    return name;
 }
 
 @end

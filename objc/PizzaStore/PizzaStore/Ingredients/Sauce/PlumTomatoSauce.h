@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "Sauce.h"
 
-@interface PlumTomatoSauce : NSObject<Sauce> {
-    NSString *name;
-}
+@interface PlumTomatoSauce : NSObject<Sauce>
+
+@property (nonatomic, strong) NSString *name;
 
 -(id) init;
 

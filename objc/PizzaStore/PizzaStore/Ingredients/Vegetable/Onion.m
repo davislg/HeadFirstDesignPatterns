@@ -10,15 +10,9 @@
 
 @implementation Onion
 
-@synthesize name;
-
 -(id) init {
-    name = @"Onion";
+    self.name = @"Onion";
     return self;
-}
-
--(NSString *) getName {
-    return name;
 }
 
 @end

@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "Cheese.h"
 
-@interface GoatCheese : NSObject<Cheese>  {
-    NSString *name;
-}
+@interface GoatCheese : NSObject<Cheese>
+
+@property (nonatomic, strong) NSString *name;
 
 -(id) init;
 

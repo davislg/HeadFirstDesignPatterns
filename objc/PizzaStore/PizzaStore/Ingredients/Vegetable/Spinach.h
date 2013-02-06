@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "Vegetable.h"
 
-@interface Spinach : NSObject<Vegetable> {
-    NSString *name;
-}
+@interface Spinach : NSObject<Vegetable>
+
+@property (nonatomic, strong) NSString *name;
 
 -(id) init;
 

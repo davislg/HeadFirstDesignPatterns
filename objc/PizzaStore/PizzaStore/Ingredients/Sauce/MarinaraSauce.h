@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "Sauce.h"
 
-@interface MarinaraSauce : NSObject<Sauce> {
-    NSString *name;
-}
+@interface MarinaraSauce : NSObject<Sauce>
+
+@property (nonatomic, strong) NSString *name;
 
 -(id) init;
 

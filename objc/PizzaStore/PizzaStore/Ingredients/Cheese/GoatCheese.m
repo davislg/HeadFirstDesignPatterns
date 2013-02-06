@@ -13,12 +13,8 @@
 @synthesize name;
 
 -(id) init {
-    name = @"Goat Cheese";
+    self.name = @"Goat Cheese";
     return self;
-}
-
--(NSString *) getName {
-    return name;
 }
 
 @end

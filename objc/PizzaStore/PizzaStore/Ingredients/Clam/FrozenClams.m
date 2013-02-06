@@ -10,15 +10,9 @@
 
 @implementation FrozenClams
 
-@synthesize name;
-
 -(id) init {
-    name = @"Frozen Clams";
+    self.name = @"Frozen Clams";
     return self;
-}
-
--(NSString *) getName {
-    return name;
 }
 
 @end

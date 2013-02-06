@@ -8,17 +8,11 @@
 
 #import "ThickCrustDough.h"
 
-@implementation ThickCrustDough 
-
-@synthesize name;
+@implementation ThickCrustDough
 
 -(id) init {
-    name = @"Thick Crust Dough";
+    self.name = @"Thick Crust Dough";
     return self;
-}
-
--(NSString *) getName {
-    return name;
 }
 
 @end
