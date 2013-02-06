@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "Beverage.h"
 
-@interface CondimentDecorator : Beverage {
-    Beverage *beverage;
-}
+@interface CondimentDecorator : Beverage
+
+@property (nonatomic, strong) Beverage *beverage;
 
 -(id) init:(Beverage *) aBeverage;
 -(NSString *) getDescription;

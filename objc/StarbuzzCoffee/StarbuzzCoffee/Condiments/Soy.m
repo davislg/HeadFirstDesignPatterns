@@ -12,17 +12,15 @@
 
 -(id) init:(Beverage *)aBeverage {
     self = [super init:aBeverage];
-    description = @"Soy";
-    cost[0] = .15;
-    cost[1] = .20;
-    cost[2] = .25;
+    self.description = @"Soy";
+    self.cost = @[@.15, @.20, @.25];
     return self;
 }
 
 -(NSString *) getDescription {
-    NSString *fullDescription = [beverage getDescription];
+    NSString *fullDescription = [self.beverage getDescription];
     fullDescription = [fullDescription stringByAppendingString:@", "];
-    fullDescription = [fullDescription stringByAppendingString:description];
+    fullDescription = [fullDescription stringByAppendingString:self.description];
     return fullDescription;
 }
 

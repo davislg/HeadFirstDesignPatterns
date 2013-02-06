@@ -9,16 +9,15 @@
 #import <Foundation/Foundation.h>
 #import "BeverageSize.h"
 
-@interface Beverage : NSObject {
-    NSString *description;
-    double cost[3];
-    BeverageSize size;
-}
+@interface Beverage : NSObject
+
+@property (nonatomic, strong) NSString *description;
+@property (nonatomic, strong) NSArray *cost;
+@property (nonatomic, assign) BeverageSize beverageSize;
+
 
 -(NSString *) getDescription;
 -(double) getCost;
--(BeverageSize) getSize;
 -(NSString *) getSizeDescription;
--(void) setSize:(BeverageSize) aSize;
 
 @end

@@ -11,10 +11,8 @@
 @implementation HouseBlend
 
 -(id) init {
-    description = @"House Blend Coffee";
-    cost[0] = .89;
-    cost[1] = 1.89;
-    cost[2] = 2.89;
+    self.description = @"House Blend Coffee";
+    self.cost = @[@.89, @1.89, @2.89];
     return self;
 }
 

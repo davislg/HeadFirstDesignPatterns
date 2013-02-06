@@ -17,7 +17,7 @@
 }
 
 -(NSString *) getDescription {
-    NSString *fullDescription = description;
+    NSString *fullDescription = self.description;
     fullDescription = [fullDescription stringByAppendingString:@" ["];
     fullDescription = [fullDescription stringByAppendingString:[self getSizeDescription]];
     fullDescription = [fullDescription stringByAppendingString:@"]"];
@@ -25,25 +25,25 @@
 }
 
 -(double) getCost {
-    switch (size) {
+    switch (self.beverageSize) {
         case Tall:
-            return cost[0];
+            return [self.cost[0] doubleValue];
             break;
         case Grande:
-            return cost[1];
+            return [self.cost[1] doubleValue];
             break;
         case Venti:
-            return cost[2];
+            return [self.cost[2] doubleValue];
             break;
         default:
-            return cost[0];
+            return [self.cost[0] doubleValue];
             break;
     }
 }
 
 -(NSString *) getSizeDescription {
     NSString *sizeString = Nil;
-    switch (size) {
+    switch (self.beverageSize) {
         case Tall:
             sizeString = @"Tall";
             break;
@@ -58,13 +58,4 @@
     }
     return sizeString;
 }
-
--(BeverageSize) getSize {
-    return size;
-}
-
--(void) setSize:(BeverageSize) aSize {
-    size = aSize;
-}
-
 @end

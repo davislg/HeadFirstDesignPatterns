@@ -11,10 +11,8 @@
 @implementation Decaf
 
 -(id) init {
-    description = @"Decaf";
-    cost[0] = 1.05;
-    cost[1] = 2.05;
-    cost[2] = 3.05;
+    self.description = @"Decaf";
+    self.cost = @[@1.05, @2.05, @3.05];
     return self;
 }
 

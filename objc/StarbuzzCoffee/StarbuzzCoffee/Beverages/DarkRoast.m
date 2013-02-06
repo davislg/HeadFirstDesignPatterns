@@ -11,10 +11,8 @@
 @implementation DarkRoast
 
 -(id) init {
-    description = @"Dark Roast Coffee";
-    cost[0] = .99;
-    cost[1] = 1.99;
-    cost[2] = 2.99;
+    self.description = @"Dark Roast Coffee";
+    self.cost = @[@.99, @1.99, @2.99];
     return self;
 }
 

@@ -11,10 +11,8 @@
 @implementation Expresso
 
 -(id) init {
-    description = @"Espresso";
-    cost[0] = 1.99;
-    cost[1] = 2.99;
-    cost[2] = 3.99;
+    self.description = @"Espresso";
+    self.cost = @[@1.99, @2.99, @3.99];
     return self;
 }
 

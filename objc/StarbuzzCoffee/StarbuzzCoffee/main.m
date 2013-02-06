@@ -20,18 +20,18 @@ int main (int argc, const char * argv[]) {
     printf("\n");
     
     Beverage *beverage = [[Expresso alloc] init];
-    [beverage setSize:Tall];
+    beverage.beverageSize = Tall;
     printf("%s $%3.2f\n", [[beverage getDescription] UTF8String], [beverage getCost]);
     
     Beverage *beverage2 = [[DarkRoast alloc] init];
-    [beverage2 setSize:Venti];
+    beverage2.beverageSize = Venti;
     beverage2 = [[Mocha alloc] init:beverage2];
     beverage2 = [[Mocha alloc] init:beverage2];
     beverage2 = [[Whip alloc] init:beverage2];
     printf("%s $%3.2f\n", [[beverage2 getDescription] UTF8String], [beverage2 getCost]);
     
     Beverage *beverage3 = [[HouseBlend alloc] init];
-    [beverage3 setSize:Grande];
+    beverage3.beverageSize = Grande;
     beverage3 = [[Soy alloc] init:beverage3];
     beverage3 = [[Mocha alloc] init:beverage3];
     beverage3 = [[Whip alloc] init:beverage3];

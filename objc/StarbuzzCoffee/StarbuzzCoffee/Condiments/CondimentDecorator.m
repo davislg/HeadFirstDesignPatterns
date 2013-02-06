@@ -17,27 +17,27 @@
 }
 
 -(id) init:(Beverage *)aBeverage {
-    beverage = aBeverage;
-    size = [beverage getSize];
+    _beverage = aBeverage;
+    self.beverageSize = self.beverage.beverageSize;
     return self;
 }
 
 -(double) getCost {
-    double fullCost = cost[0];
-    switch (size) {
+    double fullCost = [self.cost[0] doubleValue];
+    switch (self.beverageSize) {
         case Tall:
-            fullCost = cost[0];
+            fullCost = [self.cost[0] doubleValue];
             break;
         case Grande:
-            fullCost = cost[1];
+            fullCost = [self.cost[1] doubleValue];
             break;
         case Venti:
-            fullCost = cost[2];
+            fullCost = [self.cost[2] doubleValue];
             break;
         default:
             break;
     }
-    return fullCost + [beverage getCost];
+    return fullCost + [self.beverage getCost];
 }
 
 -(NSString *) getDescription {
