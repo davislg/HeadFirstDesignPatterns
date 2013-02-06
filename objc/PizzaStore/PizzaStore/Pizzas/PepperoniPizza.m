@@ -14,13 +14,13 @@
     // prepare pizza
     printf("Preparing %s\n", [name UTF8String]);
     dough = [ingredientFactory createDough];
-    printf("Adding dough: %s\n", [[dough getName] UTF8String]);
+    printf("Adding dough: %s\n", [dough.name UTF8String]);
     sauce = [ingredientFactory createSauce];
-    printf("Adding sauce: %s\n", [[sauce getName] UTF8String]);
+    printf("Adding sauce: %s\n", [sauce.name UTF8String]);
     cheese = [ingredientFactory createCheese];
-    printf("Adding cheese: %s\n", [[cheese getName] UTF8String]);
+    printf("Adding cheese: %s\n", [cheese.name UTF8String]);
     pepperoni = [ingredientFactory createPepperoni];
-    printf("Adding pepperoni: %s\n", [[pepperoni getName] UTF8String]);
+    printf("Adding pepperoni: %s\n", [pepperoni.name UTF8String]);
 }
 
 @end

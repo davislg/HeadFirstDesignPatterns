@@ -68,6 +68,7 @@
 		8BC7EDE916B1D2B300702769 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8BC7EDEC16B1D2B300702769 /* SimUDuck-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimUDuck-Prefix.pch"; sourceTree = "<group>"; };
 		8BC7EDED16B1D2B300702769 /* SimUDuck.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SimUDuck.1; sourceTree = "<group>"; };
+		8BFCF1E716C22523008964D8 /* Ducks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ducks.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,7 @@
 				8B52E5D516B2177400D758E7 /* RedheadDuck.m */,
 				8B52E5D616B2177400D758E7 /* RubberDuck.h */,
 				8B52E5D716B2177400D758E7 /* RubberDuck.m */,
+				8BFCF1E716C22523008964D8 /* Ducks.h */,
 			);
 			path = Ducks;
 			sourceTree = "<group>";

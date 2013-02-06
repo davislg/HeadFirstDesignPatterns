@@ -12,10 +12,10 @@
 
 #import "QuackBehavior.h"
 
-@interface Duck : NSObject {
-    NSObject<FlyBehavior> *flyBehavior;
-    NSObject<QuackBehavior> *quackBehavior;
-}
+@interface Duck : NSObject
+
+@property (nonatomic, strong) NSObject<FlyBehavior> *flyBehavior;
+@property (nonatomic, strong) NSObject<QuackBehavior> *quackBehavior;
 
 -(id) init:(NSObject<FlyBehavior> *) aFlyBehavior :(NSObject<QuackBehavior> *) aQuackBehavior;
 

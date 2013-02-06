@@ -18,8 +18,8 @@
 
 
 -(id) init:(NSObject<FlyBehavior> *) aFlyBehavior :(NSObject<QuackBehavior> *) aQuackBehavior {
-    flyBehavior = aFlyBehavior;
-    quackBehavior = aQuackBehavior;
+    _flyBehavior = aFlyBehavior;
+    _quackBehavior = aQuackBehavior;
     return self;
 }
 
@@ -28,23 +28,15 @@
 }
 
 -(void) performFly {
-    [flyBehavior fly];
+    [self.flyBehavior fly];
 }
 
 -(void) performQuack {
-    [quackBehavior quack];
+    [self.quackBehavior quack];
 }
 
 -(void) swim {
     printf("All ducks float, even decoys!\n");
-}
-
--(void) setFlyBehavior:(NSObject<FlyBehavior> *)aFlyBehavior {
-    flyBehavior = aFlyBehavior;
-}
-
--(void) setQuackBehavior:(NSObject<QuackBehavior> *)aQuackBehavior {
-    quackBehavior = aQuackBehavior;
 }
 
 @end

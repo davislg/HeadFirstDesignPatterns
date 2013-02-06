@@ -7,11 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Duck.h"
-#import "DecoyDuck.h"
-#import "MallardDuck.h"
-#import "RedheadDuck.h"
-#import "RubberDuck.h"
+#import "Ducks.h"
 
 #import "FlyConcrete.h"
 #import "QuackConcrete.h"
@@ -54,15 +50,15 @@ int main (int argc, const char * argv[]) {
     
     printf("\nMallard broke it's wing and can no longer fly.\n");
     // Mallard Duck
-    [mallard setFlyBehavior:[[FlyNoWay alloc] init]];
+    mallard.flyBehavior = [[FlyNoWay alloc] init];
     [mallard performFly];
     
     printf("\nWeeks pass and Mallard is healed and can fly better than before.\n");
-    [mallard setFlyBehavior:[[FlyRocketPowered alloc] init]];
+    mallard.flyBehavior = [[FlyRocketPowered alloc] init];
     [mallard performFly];
     
     printf("\nMallard flies so fast, his quack has turned into a squeak.\n");
-    [mallard setQuackBehavior:[[Squeak alloc] init]];
+    mallard.quackBehavior = [[Squeak alloc] init];
     [mallard performQuack];
 
     [pool drain];
