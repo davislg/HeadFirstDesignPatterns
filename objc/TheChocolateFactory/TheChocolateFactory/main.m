@@ -12,8 +12,7 @@ int main (int argc, const char * argv[]) {
 
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 
-    // insert code here...
-    NSLog(@"Hello, World!");
+    NSLog(@"Look at how to do Singleton in Obj C, since making { - (id)init } is a bit tricky");
 
     [pool drain];
     return 0;
