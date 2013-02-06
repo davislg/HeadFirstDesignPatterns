@@ -8,10 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ChocolateBoiler : NSObject
+@interface ChocolateBoiler : NSObject 
 
 @property (nonatomic, assign) BOOL isEmpty;
 @property (nonatomic, assign) BOOL isBoiled;
+
++ (ChocolateBoiler *)sharedManager;
 
 - (id)init;
 
