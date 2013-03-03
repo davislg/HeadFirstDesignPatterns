@@ -10,6 +10,10 @@
 
 @interface Light : NSObject
 
+@property (nonatomic, assign) BOOL isOn;
+
+- (id)init;
+
 - (void)on;
 - (void)off;
 

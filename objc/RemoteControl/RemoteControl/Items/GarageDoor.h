@@ -12,6 +12,7 @@
 @interface GarageDoor : NSObject
 
 @property (nonatomic, strong) Light *light;
+@property (nonatomic, assign) BOOL isOpen;
 
 - (id)initWith:(Light *)aLight;
 

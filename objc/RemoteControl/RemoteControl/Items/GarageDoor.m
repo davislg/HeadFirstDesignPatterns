@@ -16,11 +16,21 @@
 }
 
 - (void)up {
-    NSLog(@"Garage Door UP");
+    if (!self.isOpen) {
+        NSLog(@"Garage Door UP");
+        self.isOpen = YES;
+    } else {
+        NSLog(@"Garage Door is already up");
+    }
 }
 
 - (void)down {
-    NSLog(@"Garage Door DOWN");
+    if (self.isOpen) {
+        NSLog(@"Garage Door DOWN");
+        self.isOpen = NO;
+    } else {
+        NSLog(@"Garage Door is already down");
+    }
 }
 
 - (void)stop {

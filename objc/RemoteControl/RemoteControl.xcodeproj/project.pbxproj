@@ -16,6 +16,10 @@
 		8B2B8FFA16E3057B00A1401D /* GarageDoorOpenCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B8FF916E3057B00A1401D /* GarageDoorOpenCommand.m */; };
 		8B2B8FFD16E305D300A1401D /* GarageDoor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B8FFC16E305D300A1401D /* GarageDoor.m */; };
 		8B2B900016E30BD000A1401D /* LightOffCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B8FFF16E30BD000A1401D /* LightOffCommand.m */; };
+		8B2B900916E30F9200A1401D /* GarageDoorCloseCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B900216E30F9100A1401D /* GarageDoorCloseCommand.m */; };
+		8B2B900A16E30F9200A1401D /* GarageDoorLightOffCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B900416E30F9100A1401D /* GarageDoorLightOffCommand.m */; };
+		8B2B900B16E30F9200A1401D /* GarageDoorLightOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B900616E30F9200A1401D /* GarageDoorLightOnCommand.m */; };
+		8B2B900C16E30F9200A1401D /* GarageDoorStopCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B900816E30F9200A1401D /* GarageDoorStopCommand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +56,14 @@
 		8B2B8FFC16E305D300A1401D /* GarageDoor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GarageDoor.m; path = Items/GarageDoor.m; sourceTree = "<group>"; };
 		8B2B8FFE16E30BD000A1401D /* LightOffCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LightOffCommand.h; path = Commands/LightOffCommand.h; sourceTree = "<group>"; };
 		8B2B8FFF16E30BD000A1401D /* LightOffCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LightOffCommand.m; path = Commands/LightOffCommand.m; sourceTree = "<group>"; };
+		8B2B900116E30F9100A1401D /* GarageDoorCloseCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GarageDoorCloseCommand.h; path = Commands/GarageDoorCloseCommand.h; sourceTree = "<group>"; };
+		8B2B900216E30F9100A1401D /* GarageDoorCloseCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GarageDoorCloseCommand.m; path = Commands/GarageDoorCloseCommand.m; sourceTree = "<group>"; };
+		8B2B900316E30F9100A1401D /* GarageDoorLightOffCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GarageDoorLightOffCommand.h; path = Commands/GarageDoorLightOffCommand.h; sourceTree = "<group>"; };
+		8B2B900416E30F9100A1401D /* GarageDoorLightOffCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GarageDoorLightOffCommand.m; path = Commands/GarageDoorLightOffCommand.m; sourceTree = "<group>"; };
+		8B2B900516E30F9100A1401D /* GarageDoorLightOnCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GarageDoorLightOnCommand.h; path = Commands/GarageDoorLightOnCommand.h; sourceTree = "<group>"; };
+		8B2B900616E30F9200A1401D /* GarageDoorLightOnCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GarageDoorLightOnCommand.m; path = Commands/GarageDoorLightOnCommand.m; sourceTree = "<group>"; };
+		8B2B900716E30F9200A1401D /* GarageDoorStopCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GarageDoorStopCommand.h; path = Commands/GarageDoorStopCommand.h; sourceTree = "<group>"; };
+		8B2B900816E30F9200A1401D /* GarageDoorStopCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GarageDoorStopCommand.m; path = Commands/GarageDoorStopCommand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,14 +128,22 @@
 		8B2B8FE716E2ECCC00A1401D /* Commands */ = {
 			isa = PBXGroup;
 			children = (
+				8B2B8FF816E3057B00A1401D /* GarageDoorOpenCommand.h */,
+				8B2B8FF916E3057B00A1401D /* GarageDoorOpenCommand.m */,
+				8B2B900116E30F9100A1401D /* GarageDoorCloseCommand.h */,
+				8B2B900216E30F9100A1401D /* GarageDoorCloseCommand.m */,
+				8B2B900316E30F9100A1401D /* GarageDoorLightOffCommand.h */,
+				8B2B900416E30F9100A1401D /* GarageDoorLightOffCommand.m */,
+				8B2B900516E30F9100A1401D /* GarageDoorLightOnCommand.h */,
+				8B2B900616E30F9200A1401D /* GarageDoorLightOnCommand.m */,
+				8B2B900716E30F9200A1401D /* GarageDoorStopCommand.h */,
+				8B2B900816E30F9200A1401D /* GarageDoorStopCommand.m */,
 				8B2B8FF716E2FEAC00A1401D /* Commands.h */,
 				8B2B8FE816E2ED0E00A1401D /* Command.h */,
 				8B2B8FE916E2F7C800A1401D /* LightOnCommand.h */,
 				8B2B8FEA16E2F7C800A1401D /* LightOnCommand.m */,
 				8B2B8FFE16E30BD000A1401D /* LightOffCommand.h */,
 				8B2B8FFF16E30BD000A1401D /* LightOffCommand.m */,
-				8B2B8FF816E3057B00A1401D /* GarageDoorOpenCommand.h */,
-				8B2B8FF916E3057B00A1401D /* GarageDoorOpenCommand.m */,
 			);
 			name = Commands;
 			sourceTree = "<group>";
@@ -198,6 +218,10 @@
 				8B2B8FFA16E3057B00A1401D /* GarageDoorOpenCommand.m in Sources */,
 				8B2B8FFD16E305D300A1401D /* GarageDoor.m in Sources */,
 				8B2B900016E30BD000A1401D /* LightOffCommand.m in Sources */,
+				8B2B900916E30F9200A1401D /* GarageDoorCloseCommand.m in Sources */,
+				8B2B900A16E30F9200A1401D /* GarageDoorLightOffCommand.m in Sources */,
+				8B2B900B16E30F9200A1401D /* GarageDoorLightOnCommand.m in Sources */,
+				8B2B900C16E30F9200A1401D /* GarageDoorStopCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

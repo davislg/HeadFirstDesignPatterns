@@ -10,12 +10,27 @@
 
 @implementation Light
 
+- (id)init {
+    self.isOn = NO;
+    return self;
+}
+
 - (void)on {
-    NSLog(@"Light ON");
+    if (!self.isOn) {
+        NSLog(@"Light ON");
+        self.isOn = YES;
+    } else {
+        NSLog(@"Light is already on");
+    }
 }
 
 - (void)off {
-    NSLog(@"Light OFF");
+    if (self.isOn) {
+        NSLog(@"Light OFF");
+        self.isOn = NO;
+    } else {
+        NSLog(@"Light is already off");
+    }
 }
 
 @end
