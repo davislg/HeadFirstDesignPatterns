@@ -1,14 +1,14 @@
 //
-//  Light.m
+//  CeilingFan.m
 //  RemoteControl
 //
-//  Created by Davis on 3/2/13.
+//  Created by Davis on 3/3/13.
 //  Copyright (c) 2013 Liquid Thoughts. All rights reserved.
 //
 
-#import "Light.h"
+#import "CeilingFan.h"
 
-@implementation Light
+@implementation CeilingFan
 
 - (id)init {
     self.isOn = NO;
@@ -23,19 +23,19 @@
 
 - (void)on {
     if (!self.isOn) {
-        NSLog(@"%@ Light ON", self.name);
+        NSLog(@"%@ ceiling fan ON", self.name);
         self.isOn = YES;
     } else {
-        NSLog(@"%@ Light is already on", self.name);
+        NSLog(@"%@ Ceiling fan is already on", self.name);
     }
 }
 
 - (void)off {
     if (self.isOn) {
-        NSLog(@"%@ Light OFF", self.name);
+        NSLog(@"%@ ceiling fan OFF", self.name);
         self.isOn = NO;
     } else {
-        NSLog(@"@% Light is already off", self.name);
+        NSLog(@"%@ Ceiling fan is already off", self.name);
     }
 }
 

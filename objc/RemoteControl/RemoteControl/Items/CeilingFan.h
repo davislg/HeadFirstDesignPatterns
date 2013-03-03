@@ -1,14 +1,14 @@
 //
-//  Light.h
+//  CeilingFan.h
 //  RemoteControl
 //
-//  Created by Davis on 3/2/13.
+//  Created by Davis on 3/3/13.
 //  Copyright (c) 2013 Liquid Thoughts. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface Light : NSObject
+@interface CeilingFan : NSObject
 
 @property (nonatomic, assign) BOOL isOn;
 @property (nonatomic, strong) NSString *name;

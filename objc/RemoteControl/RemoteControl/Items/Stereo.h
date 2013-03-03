@@ -1,5 +1,5 @@
 //
-//  Light.h
+//  Stereo.h
 //  RemoteControl
 //
 //  Created by Davis on 3/2/13.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Light : NSObject
+@interface Stereo : NSObject
 
 @property (nonatomic, assign) BOOL isOn;
 @property (nonatomic, strong) NSString *name;
@@ -18,6 +18,8 @@
 
 - (void)on;
 - (void)off;
+- (void)setCD;
+- (void)setVolume:(NSInteger)level;
 
 - (NSString *)description;
 

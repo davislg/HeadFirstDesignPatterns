@@ -20,6 +20,14 @@
 		8B2B900A16E30F9200A1401D /* GarageDoorLightOffCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B900416E30F9100A1401D /* GarageDoorLightOffCommand.m */; };
 		8B2B900B16E30F9200A1401D /* GarageDoorLightOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B900616E30F9200A1401D /* GarageDoorLightOnCommand.m */; };
 		8B2B900C16E30F9200A1401D /* GarageDoorStopCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B900816E30F9200A1401D /* GarageDoorStopCommand.m */; };
+		8B2B900F16E31EE200A1401D /* RemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B900E16E31EE100A1401D /* RemoteControl.m */; };
+		8B2B901216E3241300A1401D /* NoCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B901116E3241300A1401D /* NoCommand.m */; };
+		8B2B901516E32AFB00A1401D /* Stereo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B901416E32AFB00A1401D /* Stereo.m */; };
+		8B2B901816E32B7E00A1401D /* StereoOnWithCDCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B901716E32B7E00A1401D /* StereoOnWithCDCommand.m */; };
+		8B2B901B16E3354400A1401D /* CeilingFan.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B901A16E3354400A1401D /* CeilingFan.m */; };
+		8B2B901E16E336C200A1401D /* CeilingFanOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B901D16E336C100A1401D /* CeilingFanOnCommand.m */; };
+		8B2B902116E336DB00A1401D /* CeilingFanOffCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B902016E336DA00A1401D /* CeilingFanOffCommand.m */; };
+		8B2B902416E338E500A1401D /* StereoOffCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B902316E338E400A1401D /* StereoOffCommand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,6 +72,22 @@
 		8B2B900616E30F9200A1401D /* GarageDoorLightOnCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GarageDoorLightOnCommand.m; path = Commands/GarageDoorLightOnCommand.m; sourceTree = "<group>"; };
 		8B2B900716E30F9200A1401D /* GarageDoorStopCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GarageDoorStopCommand.h; path = Commands/GarageDoorStopCommand.h; sourceTree = "<group>"; };
 		8B2B900816E30F9200A1401D /* GarageDoorStopCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GarageDoorStopCommand.m; path = Commands/GarageDoorStopCommand.m; sourceTree = "<group>"; };
+		8B2B900D16E31EE100A1401D /* RemoteControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteControl.h; sourceTree = "<group>"; };
+		8B2B900E16E31EE100A1401D /* RemoteControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteControl.m; sourceTree = "<group>"; };
+		8B2B901016E3241300A1401D /* NoCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoCommand.h; path = Commands/NoCommand.h; sourceTree = "<group>"; };
+		8B2B901116E3241300A1401D /* NoCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoCommand.m; path = Commands/NoCommand.m; sourceTree = "<group>"; };
+		8B2B901316E32AFA00A1401D /* Stereo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stereo.h; path = Items/Stereo.h; sourceTree = "<group>"; };
+		8B2B901416E32AFB00A1401D /* Stereo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stereo.m; path = Items/Stereo.m; sourceTree = "<group>"; };
+		8B2B901616E32B7D00A1401D /* StereoOnWithCDCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StereoOnWithCDCommand.h; path = Commands/StereoOnWithCDCommand.h; sourceTree = "<group>"; };
+		8B2B901716E32B7E00A1401D /* StereoOnWithCDCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StereoOnWithCDCommand.m; path = Commands/StereoOnWithCDCommand.m; sourceTree = "<group>"; };
+		8B2B901916E3354400A1401D /* CeilingFan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CeilingFan.h; path = Items/CeilingFan.h; sourceTree = "<group>"; };
+		8B2B901A16E3354400A1401D /* CeilingFan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CeilingFan.m; path = Items/CeilingFan.m; sourceTree = "<group>"; };
+		8B2B901C16E336C000A1401D /* CeilingFanOnCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CeilingFanOnCommand.h; path = Commands/CeilingFanOnCommand.h; sourceTree = "<group>"; };
+		8B2B901D16E336C100A1401D /* CeilingFanOnCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CeilingFanOnCommand.m; path = Commands/CeilingFanOnCommand.m; sourceTree = "<group>"; };
+		8B2B901F16E336DA00A1401D /* CeilingFanOffCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CeilingFanOffCommand.h; path = Commands/CeilingFanOffCommand.h; sourceTree = "<group>"; };
+		8B2B902016E336DA00A1401D /* CeilingFanOffCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CeilingFanOffCommand.m; path = Commands/CeilingFanOffCommand.m; sourceTree = "<group>"; };
+		8B2B902216E338E300A1401D /* StereoOffCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StereoOffCommand.h; path = Commands/StereoOffCommand.h; sourceTree = "<group>"; };
+		8B2B902316E338E400A1401D /* StereoOffCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StereoOffCommand.m; path = Commands/StereoOffCommand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +135,8 @@
 				8B2B8FDC16E2CB0600A1401D /* main.m */,
 				8B2B8FF116E2FE5E00A1401D /* SimpleRemoteControl.h */,
 				8B2B8FF216E2FE5E00A1401D /* SimpleRemoteControl.m */,
-				8B2B8FE016E2CB0600A1401D /* RemoteControl.1 */,
+				8B2B900D16E31EE100A1401D /* RemoteControl.h */,
+				8B2B900E16E31EE100A1401D /* RemoteControl.m */,
 				8B2B8FDE16E2CB0600A1401D /* Supporting Files */,
 			);
 			path = RemoteControl;
@@ -120,6 +145,7 @@
 		8B2B8FDE16E2CB0600A1401D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8B2B8FE016E2CB0600A1401D /* RemoteControl.1 */,
 				8B2B8FDF16E2CB0600A1401D /* RemoteControl-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -128,6 +154,8 @@
 		8B2B8FE716E2ECCC00A1401D /* Commands */ = {
 			isa = PBXGroup;
 			children = (
+				8B2B8FF716E2FEAC00A1401D /* Commands.h */,
+				8B2B8FE816E2ED0E00A1401D /* Command.h */,
 				8B2B8FF816E3057B00A1401D /* GarageDoorOpenCommand.h */,
 				8B2B8FF916E3057B00A1401D /* GarageDoorOpenCommand.m */,
 				8B2B900116E30F9100A1401D /* GarageDoorCloseCommand.h */,
@@ -138,12 +166,20 @@
 				8B2B900616E30F9200A1401D /* GarageDoorLightOnCommand.m */,
 				8B2B900716E30F9200A1401D /* GarageDoorStopCommand.h */,
 				8B2B900816E30F9200A1401D /* GarageDoorStopCommand.m */,
-				8B2B8FF716E2FEAC00A1401D /* Commands.h */,
-				8B2B8FE816E2ED0E00A1401D /* Command.h */,
 				8B2B8FE916E2F7C800A1401D /* LightOnCommand.h */,
 				8B2B8FEA16E2F7C800A1401D /* LightOnCommand.m */,
 				8B2B8FFE16E30BD000A1401D /* LightOffCommand.h */,
 				8B2B8FFF16E30BD000A1401D /* LightOffCommand.m */,
+				8B2B901016E3241300A1401D /* NoCommand.h */,
+				8B2B901116E3241300A1401D /* NoCommand.m */,
+				8B2B901616E32B7D00A1401D /* StereoOnWithCDCommand.h */,
+				8B2B901716E32B7E00A1401D /* StereoOnWithCDCommand.m */,
+				8B2B902216E338E300A1401D /* StereoOffCommand.h */,
+				8B2B902316E338E400A1401D /* StereoOffCommand.m */,
+				8B2B901C16E336C000A1401D /* CeilingFanOnCommand.h */,
+				8B2B901D16E336C100A1401D /* CeilingFanOnCommand.m */,
+				8B2B901F16E336DA00A1401D /* CeilingFanOffCommand.h */,
+				8B2B902016E336DA00A1401D /* CeilingFanOffCommand.m */,
 			);
 			name = Commands;
 			sourceTree = "<group>";
@@ -156,6 +192,10 @@
 				8B2B8FEE16E2FB7200A1401D /* Light.m */,
 				8B2B8FFB16E305D300A1401D /* GarageDoor.h */,
 				8B2B8FFC16E305D300A1401D /* GarageDoor.m */,
+				8B2B901316E32AFA00A1401D /* Stereo.h */,
+				8B2B901416E32AFB00A1401D /* Stereo.m */,
+				8B2B901916E3354400A1401D /* CeilingFan.h */,
+				8B2B901A16E3354400A1401D /* CeilingFan.m */,
 			);
 			name = Items;
 			sourceTree = "<group>";
@@ -222,6 +262,14 @@
 				8B2B900A16E30F9200A1401D /* GarageDoorLightOffCommand.m in Sources */,
 				8B2B900B16E30F9200A1401D /* GarageDoorLightOnCommand.m in Sources */,
 				8B2B900C16E30F9200A1401D /* GarageDoorStopCommand.m in Sources */,
+				8B2B900F16E31EE200A1401D /* RemoteControl.m in Sources */,
+				8B2B901216E3241300A1401D /* NoCommand.m in Sources */,
+				8B2B901516E32AFB00A1401D /* Stereo.m in Sources */,
+				8B2B901816E32B7E00A1401D /* StereoOnWithCDCommand.m in Sources */,
+				8B2B901B16E3354400A1401D /* CeilingFan.m in Sources */,
+				8B2B901E16E336C200A1401D /* CeilingFanOnCommand.m in Sources */,
+				8B2B902116E336DB00A1401D /* CeilingFanOffCommand.m in Sources */,
+				8B2B902416E338E500A1401D /* StereoOffCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,6 +11,7 @@
 @implementation GarageDoor
 
 - (id)initWith:(id)aLight {
+    self.name = @"Garage Door";
     self.light = aLight;
     return self;
 }
@@ -43,6 +44,10 @@
 
 - (void)lightOff {
     [self.light off];
+}
+
+- (NSString *)description {
+    return self.name;
 }
 
 @end

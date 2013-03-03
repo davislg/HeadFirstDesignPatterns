@@ -19,5 +19,4 @@
     [self.door up];
 }
 
-
 @end

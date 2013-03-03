@@ -13,6 +13,7 @@
 
 @property (nonatomic, strong) Light *light;
 @property (nonatomic, assign) BOOL isOpen;
+@property (nonatomic, strong) NSString *name;
 
 - (id)initWith:(Light *)aLight;
 
@@ -21,5 +22,7 @@
 - (void)stop;
 - (void)lightOn;
 - (void)lightOff;
+
+- (NSString *)description;
 
 @end

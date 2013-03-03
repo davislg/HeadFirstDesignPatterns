@@ -1,14 +1,14 @@
 //
-//  Light.m
+//  Stereo.m
 //  RemoteControl
 //
 //  Created by Davis on 3/2/13.
 //  Copyright (c) 2013 Liquid Thoughts. All rights reserved.
 //
 
-#import "Light.h"
+#import "Stereo.h"
 
-@implementation Light
+@implementation Stereo
 
 - (id)init {
     self.isOn = NO;
@@ -23,20 +23,28 @@
 
 - (void)on {
     if (!self.isOn) {
-        NSLog(@"%@ Light ON", self.name);
+        NSLog(@"%@ Stereo ON", self.name);
         self.isOn = YES;
     } else {
-        NSLog(@"%@ Light is already on", self.name);
+        NSLog(@"%@ Stereo is already on", self.name);
     }
 }
 
 - (void)off {
     if (self.isOn) {
-        NSLog(@"%@ Light OFF", self.name);
+        NSLog(@"%@ Stereo OFF", self.name);
         self.isOn = NO;
     } else {
-        NSLog(@"@% Light is already off", self.name);
+        NSLog(@"%@ Stereo is already off", self.name);
     }
+}
+
+- (void)setCD {
+    NSLog(@"CD SET");
+}
+
+- (void)setVolume:(NSInteger)level {
+    NSLog(@"Volume set to %d",(int)level);
 }
 
 - (NSString *)description {
