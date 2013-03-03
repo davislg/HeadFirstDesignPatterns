@@ -12,3 +12,4 @@ Patterns:
 	StarbuzzCoffee          Decorator Pattern
     PizzaStore              Factory Pattern (Abstract Factory & Method Factory)
     TheChocolateFactory     Singleton Pattern
+    RemoteControl			Command Pattern
