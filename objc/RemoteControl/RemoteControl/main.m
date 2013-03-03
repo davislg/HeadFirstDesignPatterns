@@ -7,16 +7,34 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SimpleRemoteControl.h"
 
-int main (int argc, const char * argv[])
-{
+int main (int argc, const char * argv[]) {
 
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+    @autoreleasepool {
 
-    // insert code here...
-    NSLog(@"Hello, World!");
+        // Remote
+        SimpleRemoteControl *remote = [[SimpleRemoteControl alloc] init];
+        
+        // Items
+        Light *light = [[Light alloc] init];
+        LightOnCommand *lightOn = [[LightOnCommand alloc] initWith:light];
+        LightOffCommand *lightOff = [[LightOffCommand alloc] initWith:light];
+        
+        GarageDoor *door = [[GarageDoor alloc] initWith:light];
+        GarageDoorOpenCommand *doorOpen = [[GarageDoorOpenCommand alloc] initWith:door];
+        
+        // Execution
+        [remote setCommand:lightOn];
+        [remote buttonWasPressed];
+        [remote setCommand:lightOff];
+        [remote buttonWasPressed];
 
-    [pool drain];
+        
+        [remote setCommand:doorOpen];
+        [remote buttonWasPressed];
+        
+    }
     return 0;
 }
 

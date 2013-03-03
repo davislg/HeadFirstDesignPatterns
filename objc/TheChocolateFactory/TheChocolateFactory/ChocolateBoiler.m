@@ -20,7 +20,7 @@ static ChocolateBoiler *sharedManager;
 }
 
 + (id)allocWithZone:(NSZone *)zone {
-    return [[self sharedManager] retain];
+    return [self sharedManager];
 }
 
 - (id)copyWithZone:(NSZone *)zone {
